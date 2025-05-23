@@ -1,0 +1,77 @@
+
+/* System Fonts */
+@font-face {
+font-family: 'Klavika Light';
+          src: url(https://cdn.shopify.com/s/files/1/0748/2585/9321/files/Klavika_Light_a74fccdc-75c9-41a0-9236-9cf4c48843cb.woff2?v=1747935987) format('woff2');
+}
+@font-face {
+          font-family: 'Klavika Regular';
+          src: url(https://cdn.shopify.com/s/files/1/0748/2585/9321/files/Klavika_Regular_e99f8f6c-2376-47c3-b13d-3118b72fa8fd.woff2?v=1747935993) format('woff2');
+}
+@font-face {
+          font-family: 'klavika-medium';
+          src: url(https://cdn.shopify.com/s/files/1/0748/2585/9321/files/klavika-medium.woff2?v=1747936006) format('woff2');
+}
+@font-face {
+        font-family: 'Klavika Bold';
+          src: url(https://cdn.shopify.com/s/files/1/0748/2585/9321/files/klavika-bold_98a9c00c-3770-4beb-b63c-8cecafe7ece9.woff2?v=1747935993) format('woff2');
+}
+
+          h2 {
+            font-family: 'klavika-medium' !important ;
+           
+          
+          }
+          
+          
+        p {
+            font-family: 'Klavika Regular' !important ;
+        }
+
+        h6 {
+            font-family: 'Klavika Regular' !important ;
+        }
+
+        h3 {
+            font-family: 'klavika-medium' !important ;
+        }
+
+
+
+
+          /* hero section styles */
+    @media (min-width: 480px) {
+          div.hero__content-wrapper {
+            max-width: 40vw;
+
+          }
+        }
+
+      
+
+        div.image-block.image-block--AaVNPVTNmUk5LSnZ3V__image_GF7ztc 
+        {
+            width: 7vw;
+          
+        
+
+        }
+
+
+        /* search modal */
+        button.button-primary.predictive-search__search-button {
+            display: none; 
+        }
+
+
+        /* collection grid */
+
+        a.size-style.button.button--AWWF1OHFlQnZXK0VNY__button_4wbJXG-1, a.size-style.button.button--AWWF1OHFlQnZXK0VNY__button_4wbJXG, a.size-style.button.button--AWWF1OHFlQnZXK0VNY__button_4wbJXG-2
+   {
+padding-top: 10px; 
+padding-bottom: 10px; 
+   }
+
+  div.collection-card__content {
+    padding: 1.5rem !important; 
+  }
