@@ -90,7 +90,6 @@
         "link": "",
         "open_in_new_tab": false,
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/microtech_destktop_homepage_1.2.webp",
         "media_type_2": "image",
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -464,7 +463,6 @@
         "link": "",
         "open_in_new_tab": false,
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/Service_personel.webp",
         "media_type_2": "image",
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -584,7 +582,6 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/knife_fineder_png.webp",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fit-content",
@@ -1240,7 +1237,7 @@
         "text_x4FhwM": {
           "type": "text",
           "settings": {
-            "text": "<p>Get news on the latest drops, exclusive offers. and everything Microtech®</p>",
+            "text": "<p>Get news on the latest drops, exclusive offers. and everything El Jefe!</p>",
             "width": "fit-content",
             "max_width": "none",
             "alignment": "left",
@@ -1297,7 +1294,6 @@
         "link": "",
         "open_in_new_tab": false,
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/email_signup_bannert.webp",
         "media_type_2": "image",
         "content_direction": "column",
         "vertical_on_mobile": true,
