@@ -16,7 +16,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>THE NEW ERA OF ULTRATECH</h2>",
+            "text": "<h2>NEW BEARD BALM</h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -42,7 +42,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>The iconic Microtech OTF has been redefined with cutting-edge tech.</p>",
+            "text": "<p>Handmade balm ...</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
