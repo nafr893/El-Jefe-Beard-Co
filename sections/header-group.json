@@ -17,7 +17,7 @@
         "announcement_eQRJBJ": {
           "type": "_announcement",
           "settings": {
-            "text": "New Arrival - Scarab II Gen III",
+            "text": "Free Shipping Over $50",
             "link": "shopify://products/scarab",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
