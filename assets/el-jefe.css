@@ -46,7 +46,7 @@ font-family: 'Klavika Light';
 
           }
 
-          a.menu-drawer__menu-item--child {
+          a.menu-drawer__menu-item.menu-drawer__menu-item--child {
             font-size: 20px !important ;
             display: none !important 
           }
