@@ -103,6 +103,9 @@ display: none ;
 
 }
 
+search-button.search-action.desktop:hidden {
+  grid-area: rightA ;
+}
             }
 
          .menu-drawer__menu-item--child {
