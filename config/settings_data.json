@@ -9,8 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/Microtech_logo_1.1.png",
+    "logo": "shopify://shop_images/El_Jefe_Beard_Co_-_Logo_-_Vertical_-_White_c893851a-385f-4ecf-96e3-a0a6108c2712.png",
     "logo_inverse": "shopify://shop_images/Microtech_logo_1.1.png",
+    "favicon": "shopify://shop_images/el_jefe_favicon_lgoo_b1961e52-c882-4309-a290-4b076f5dde45.png",
     "type_body_font": "poppins_n4",
     "type_subheading_font": "poppins_n4",
     "type_heading_font": "poppins_n4",
