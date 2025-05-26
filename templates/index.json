@@ -12,6 +12,32 @@
     "hero_jVaWmY": {
       "type": "hero",
       "blocks": {
+        "text_mh8W3q": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "text_idXHkj": {
           "type": "text",
           "name": "t:names.heading",
@@ -81,6 +107,7 @@
         }
       },
       "block_order": [
+        "text_mh8W3q",
         "text_idXHkj",
         "text_iXYWz6",
         "button_jB9Mz8"
@@ -103,6 +130,138 @@
         "section_height": "custom",
         "section_height_custom": 90,
         "color_scheme": "scheme-1",
+        "toggle_overlay": true,
+        "overlay_color": "rgba(0,0,0,0)",
+        "overlay_style": "gradient",
+        "gradient_direction": "to bottom",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 100,
+        "padding-block-end": 48
+      }
+    },
+    "hero_pekt6C": {
+      "type": "hero",
+      "blocks": {
+        "text_VffMkm": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>SALE</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": true,
+            "background_color": "#000000",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 15,
+            "padding-inline-end": 15
+          },
+          "blocks": {}
+        },
+        "text_WdY4iF": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>OIL + BALM </h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_HFTLjP": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Handmade Oils and Balms </p>",
+            "width": "100%",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "h6",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 20,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_Y8iB4r": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Shop now",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "custom",
+            "custom_width": 50,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_VffMkm",
+        "text_WdY4iF",
+        "text_HFTLjP",
+        "button_Y8iB4r"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "link": "",
+        "open_in_new_tab": false,
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/el_jefe_mobile_homepage_1.1.webp",
+        "media_type_2": "image",
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "space-between",
+        "vertical_alignment": "flex-end",
+        "align_baseline": true,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "flex-start",
+        "gap": 15,
+        "section_width": "page-width",
+        "section_height": "custom",
+        "section_height_custom": 90,
+        "color_scheme": "scheme-2",
         "toggle_overlay": true,
         "overlay_color": "rgba(0,0,0,0)",
         "overlay_style": "gradient",
@@ -1004,6 +1163,7 @@
   },
   "order": [
     "hero_jVaWmY",
+    "hero_pekt6C",
     "product_list_qU3bEB",
     "hero_jjgqYF",
     "collection_list_aJJW7j",
