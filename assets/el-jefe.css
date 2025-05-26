@@ -104,7 +104,7 @@ display: none ;
 }
 
 search-button.search-action.desktop:hidden {
-  grid-area: rightA ;
+  grid-area: rightA !important;
 }
             }
 
@@ -139,7 +139,7 @@ search-button.search-action.desktop:hidden {
   /* header styles */ 
   @media screen and (width < 750px) {
     .header__columns .header-logo {
-      grid-area: center; 
+      grid-area: center !important; 
     }
   }
 
