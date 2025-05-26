@@ -107,8 +107,12 @@ padding-bottom: 10px;
        
       p {
     color: white !important ;
-    font-weight: bold; 
-    }          
+    font-weight: 600; 
+    }       
+    
+    h3 {
+      font-weight: bold !important ;
+    }
 
     div.spacing-style.text-block0.text-block--AUFhtN0FxV2d3enF4R__text_HFTLjP.h6.text-block--align-left.text-block--full-width 
   {
