@@ -103,6 +103,14 @@ display: none ;
 
 }
 
+/* homepage styles */ 
+div#Hero-template--17222818529357__hero_pekt6C {
+div.hero__container.spacing-style.section.section--full-width {
+  padding-top: 70px; 
+
+}}
+
+/* header styles */
     search-button.search-action.desktop:hidden {
     grid-area: rightA !important;
     }
