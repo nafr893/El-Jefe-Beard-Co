@@ -45,8 +45,7 @@ font-family: 'Klavika Light';
             max-width: 40vw;
 
           }
-
-          a.menu-drawer__menu-item.menu-drawer__menu-item--child.menu-drawer__animated-element.focus-inset {
+      .menu-drawer__menu-item--child {
             font-size: 20px !important ;
             display: none !important 
           }
