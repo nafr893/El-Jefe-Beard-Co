@@ -88,6 +88,9 @@ section#shopify-section-template--17222818529357__hero_jVaWmY {
   display: none !important; 
 }
 
+button.account-button.header-actions__action {
+  display: none ; 
+}
       
       }
 
