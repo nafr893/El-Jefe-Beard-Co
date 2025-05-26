@@ -103,9 +103,9 @@ display: none ;
 
 }
 
-search-button.search-action.desktop:hidden {
-  grid-area: rightA !important;
-}
+    search-button.search-action.desktop:hidden {
+    grid-area: rightA !important;
+    }
             }
 
             a.size-style.spacing-style.header-logo {
