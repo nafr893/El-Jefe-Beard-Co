@@ -199,7 +199,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Handmade Oils and Balms </p>",
+            "text": "<h6>Handmade Oils and Balms </h6>",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
