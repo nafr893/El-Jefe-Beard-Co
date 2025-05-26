@@ -88,6 +88,7 @@ section#shopify-section-template--17222818529357__hero_jVaWmY {
   display: none !important; 
 }
 
+/* header account button */ 
 button.account-button.header-actions__action {
   display: none ; 
 }
@@ -131,3 +132,11 @@ display: none ;
 
   }
           
+
+  /* header styles */ 
+  @media screen and (width < 750px) {
+    .header__columns .header-logo {
+      grid-area: center; 
+    }
+  }
+
