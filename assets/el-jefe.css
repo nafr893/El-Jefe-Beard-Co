@@ -107,7 +107,9 @@ padding-bottom: 10px;
         rte-formatter.spacing-style.text-block.text-block--Abm1BRE9RMzJ1eGZPR__text_VffMkm.paragraph.text-block--background0.rte 
   
   {
+    p {
     color: white !important ;
     font-weight: bold; 
-            }
+    }          
+  }
           }
