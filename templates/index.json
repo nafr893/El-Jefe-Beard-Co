@@ -331,7 +331,7 @@
               "name": "t:names.text",
               "settings": {
                 "text": "<h6><strong>MADE IN THE USA</strong></h6>",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "narrow",
                 "alignment": "left",
                 "type_preset": "rte",
@@ -497,7 +497,7 @@
               "name": "t:names.text",
               "settings": {
                 "text": "<h6><strong>FREE SHIPPING OVER $50</strong></h6>",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "narrow",
                 "alignment": "left",
                 "type_preset": "rte",
@@ -580,7 +580,7 @@
               "name": "t:names.text",
               "settings": {
                 "text": "<h6><strong>MONTHLY SUBSCRIPTIONS</strong></h6>",
-                "width": "fit-content",
+                "width": "100%",
                 "max_width": "narrow",
                 "alignment": "left",
                 "type_preset": "rte",
