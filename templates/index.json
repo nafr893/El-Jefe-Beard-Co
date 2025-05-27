@@ -95,7 +95,7 @@
           "name": "t:names.button",
           "settings": {
             "label": "Shop now",
-            "link": "shopify://collections/all",
+            "link": "shopify://products/oil-butter-combo",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "custom",
@@ -227,7 +227,7 @@
           "name": "t:names.button",
           "settings": {
             "label": "Shop now",
-            "link": "shopify://collections/all",
+            "link": "shopify://products/oil-butter-or-balm-combo",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "custom",
