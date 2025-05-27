@@ -167,3 +167,15 @@ div.hero__container.spacing-style.section.section--full-width {
     }
   }
 
+  /* collection card settings */
+div#shopify-section-template--17222818529357__collection_list_aJJW7j {
+
+  a {
+    text-decoration: underline;
+    text-decoration-color: #CFA74B; 
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 2px; 
+
+  }
+
+}
