@@ -330,7 +330,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h5><strong>MADE IN THE USA</strong></h5>",
+                "text": "<h6><strong>MADE IN THE USA</strong></h6>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -413,7 +413,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h5><strong>NATURAL INGREDIENTS</strong></h5>",
+                "text": "<h6><strong>NATURAL INGREDIENTS</strong></h6>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -496,7 +496,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h5><strong>FREE SHIPPING OVER $50</strong></h5>",
+                "text": "<h6><strong>FREE SHIPPING OVER $50</strong></h6>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -579,7 +579,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h5><strong>MONTHLY SUBSCRIPTIONS</strong></h5>",
+                "text": "<h6><strong>MONTHLY SUBSCRIPTIONS</strong></h6>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -623,7 +623,7 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
+        "gap": 20,
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
