@@ -61,7 +61,7 @@
                 "heading": "SHOP",
                 "menu_spacing": 10,
                 "show_as_accordion": true,
-                "accordion_icon": "plus",
+                "accordion_icon": "caret",
                 "accordion_dividers": false,
                 "inherit_color_scheme": true,
                 "color_scheme": "",
@@ -516,7 +516,7 @@
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
-                "padding-inline-end": 15
+                "padding-inline-end": 30
               },
               "blocks": {}
             },
