@@ -2280,7 +2280,7 @@
               "settings": {
                 "text": "<p>Don’t let your beard get out of control. Choose your favorite scents and get them delivered to your doorstep every month.</p>",
                 "width": "fit-content",
-                "max_width": "narrow",
+                "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
