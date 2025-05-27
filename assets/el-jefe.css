@@ -115,7 +115,8 @@ footer#shopify-section-sections--17222818103373__footer {
     width: fit-content; 
   }
 
-  .group-block-content {
+  div.group-block.group-block--height-fit.group-block--width-fill.border-style.spacing-style.size-style
+   {
     width: fit-content; 
   }
 
