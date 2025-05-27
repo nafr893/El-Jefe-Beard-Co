@@ -1023,7 +1023,7 @@
         "text_RAGMeE": {
           "type": "text",
           "settings": {
-            "text": "<h2><strong>DRESS LIKE A BOSS (better picture needed)</strong></h2>",
+            "text": "<h2><strong>DRESS LIKE A BOSS</strong></h2>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -1048,7 +1048,7 @@
         "text_K9hnNf": {
           "type": "text",
           "settings": {
-            "text": "<p>Show off your style with our exclusive merch!</p>",
+            "text": "<p><strong>Show off your style with our exclusive merch!</strong></p>",
             "width": "fit-content",
             "max_width": "none",
             "alignment": "left",
@@ -1096,7 +1096,7 @@
         "link": "",
         "open_in_new_tab": false,
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/el_jefe_hat.webp",
+        "image_1": "shopify://shop_images/el_jefe_merch_1.2.webp",
         "media_type_2": "image",
         "content_direction": "column",
         "vertical_on_mobile": true,
