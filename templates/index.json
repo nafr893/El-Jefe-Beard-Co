@@ -720,6 +720,7 @@
         "text_K9hnNf",
         "button_JgmM4t"
       ],
+      "disabled": true,
       "name": "t:names.hero",
       "settings": {
         "link": "",
