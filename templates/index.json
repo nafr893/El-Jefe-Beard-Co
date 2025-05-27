@@ -829,7 +829,7 @@
           "static": true,
           "settings": {
             "collection": "{{ closest.collection }}",
-            "placement": "on_image",
+            "placement": "below_image",
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "flex-end",
             "collection_card_gap": 8,
@@ -849,7 +849,7 @@
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "custom",
+                "type_preset": "h4",
                 "font": "var(--font-heading--family)",
                 "font_size": "3rem",
                 "line_height": "tight",
