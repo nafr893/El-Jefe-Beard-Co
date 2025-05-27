@@ -35,7 +35,7 @@
             "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "space-between",
-            "vertical_alignment": "center",
+            "vertical_alignment": "flex-start",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
@@ -65,6 +65,48 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "menu_D4qNJa": {
+              "type": "menu",
+              "name": "t:names.menu",
+              "settings": {
+                "menu": "shop-footer-menu",
+                "heading": "SHOP",
+                "menu_spacing": 12,
+                "show_as_accordion": true,
+                "accordion_icon": "plus",
+                "accordion_dividers": false,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "heading_preset": "h4",
+                "link_preset": "paragraph",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "menu_MLYQRL": {
+              "type": "menu",
+              "name": "t:names.menu",
+              "settings": {
+                "menu": "footer-menu-company",
+                "heading": "COMPANY",
+                "menu_spacing": 12,
+                "show_as_accordion": true,
+                "accordion_icon": "caret",
+                "accordion_dividers": false,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "heading_preset": "h4",
+                "link_preset": "paragraph",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "group_NKj6Uf": {
               "type": "group",
               "name": "t:names.group",
@@ -249,54 +291,12 @@
                 "group_FGy7FJ",
                 "group_y7BrGn"
               ]
-            },
-            "menu_MLYQRL": {
-              "type": "menu",
-              "name": "t:names.menu",
-              "settings": {
-                "menu": "footer-menu-company",
-                "heading": "COMPANY",
-                "menu_spacing": 12,
-                "show_as_accordion": true,
-                "accordion_icon": "caret",
-                "accordion_dividers": false,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "heading_preset": "h4",
-                "link_preset": "paragraph",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "menu_D4qNJa": {
-              "type": "menu",
-              "name": "t:names.menu",
-              "settings": {
-                "menu": "shop-footer-menu",
-                "heading": "SHOP",
-                "menu_spacing": 12,
-                "show_as_accordion": true,
-                "accordion_icon": "plus",
-                "accordion_dividers": false,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "heading_preset": "h4",
-                "link_preset": "paragraph",
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "group_NKj6Uf",
+            "menu_D4qNJa",
             "menu_MLYQRL",
-            "menu_D4qNJa"
+            "group_NKj6Uf"
           ]
         },
         "group_GYqPKx": {
