@@ -346,7 +346,7 @@
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 12,
                 "width": "custom",
-                "custom_width": 45,
+                "custom_width": 40,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
                 "height": "fit",
@@ -401,7 +401,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "text": "<p>Keep up with everything El Jefe! When we send you an email, we'll make sure its worth your time. </p>",
-                    "width": "fit-content",
+                    "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
