@@ -82,7 +82,7 @@ padding-bottom: 10px;
  
 
 
-  /* Desktop Styles */ 
+  /* Mobile Styles */ 
       @media (max-width: 480px) {
 section#shopify-section-template--17222818529357__hero_jVaWmY {
   display: none !important; 
@@ -102,12 +102,17 @@ section#shopify-section-template--17222818529357__hero_r7rzmK {
   justify-content: center !important ; 
 }
 
+ rte-formatter.spacing-style.text-block.text-block--AcFJOUmRNam8xM0F5V__text_Mpi4em.rte
+     
+  {
+padding-top: 40px; 
+  }
 
 
 }
 
 
-        /* mobile styles */ 
+        /* Desktop styles */ 
             @media (min-width: 480px) {
 section#shopify-section-template--17222818529357__hero_pekt6C {
 display: none ; 
