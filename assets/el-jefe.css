@@ -110,6 +110,10 @@ padding-top: 40px;
 
 
 div#shopify-section-template--17222818529357__section_Qrc7Q4 {
+border-top: 1px;
+border-bottom: 1px;
+border-color: black;
+
        div.spacing-style.layout-panel-flex.layout-panel-flex--row.section-content-wrapper.mobile-column
        {
       display: grid;
