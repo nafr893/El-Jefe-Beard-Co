@@ -426,7 +426,7 @@
                   "type": "email-signup",
                   "name": "t:names.email_signup",
                   "settings": {
-                    "width": "custom",
+                    "width": "fill",
                     "custom_width": 75,
                     "inherit_color_scheme": true,
                     "color_scheme": "scheme-1",
