@@ -49,8 +49,8 @@
             "gradient_direction": "to top",
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 50,
-            "padding-inline-end": 50
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {
             "menu_D4qNJa": {
@@ -496,8 +496,8 @@
             "gradient_direction": "to top",
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 50,
-            "padding-inline-end": 50
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {
             "logo_dMpR4R": {
