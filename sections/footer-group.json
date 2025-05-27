@@ -26,13 +26,33 @@
           },
           "blocks": {}
         },
+        "logo_M3bgP4": {
+          "type": "logo",
+          "name": "t:names.logo",
+          "settings": {
+            "inverse": false,
+            "font": "heading",
+            "unit": "pixel",
+            "percent_width": 100,
+            "pixel_height": 48,
+            "custom_mobile_size": false,
+            "unit_mobile": "percent",
+            "percent_width_mobile": 100,
+            "pixel_height_mobile": 120,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "group_tbFfTQ": {
           "type": "group",
           "name": "Join the club",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
-            "content_direction": "row",
+            "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "space-between",
             "vertical_alignment": "flex-end",
@@ -108,7 +128,7 @@
                   "type": "text",
                   "name": "Heading",
                   "settings": {
-                    "text": "<h2>Join the club</h2>",
+                    "text": "<h5><strong>KEEP ME UPDATED</strong></h5>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -134,7 +154,7 @@
                   "type": "text",
                   "name": "Text",
                   "settings": {
-                    "text": "<p>Get exclusive deals and early access to new products. </p>",
+                    "text": "<p>Keep up with everything El Jefe! When we send you an email, we'll make sure its worth your time. </p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -167,12 +187,12 @@
               "name": "t:names.email_signup",
               "settings": {
                 "width": "custom",
-                "custom_width": 50,
+                "custom_width": 40,
                 "inherit_color_scheme": true,
                 "color_scheme": "scheme-1",
                 "border_style": "all",
                 "border_width": 1,
-                "border_radius": 39,
+                "border_radius": 0,
                 "input_type_preset": "paragraph",
                 "style_class": "button-unstyled",
                 "display_type": "arrow",
@@ -281,6 +301,7 @@
       },
       "block_order": [
         "divider_hFm3am",
+        "logo_M3bgP4",
         "group_tbFfTQ",
         "footer_utilities_KRaGcH"
       ],
