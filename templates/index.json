@@ -913,9 +913,9 @@
       "name": "t:names.collections_bento",
       "settings": {
         "collection_list": [
-          "fixed-blades",
-          "folding-knives",
-          "otf"
+          "beard-products",
+          "bundles",
+          "merch"
         ],
         "layout_type": "grid",
         "carousel_on_mobile": true,
