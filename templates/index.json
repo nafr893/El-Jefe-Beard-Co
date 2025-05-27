@@ -652,7 +652,7 @@
         "text_RAGMeE": {
           "type": "text",
           "settings": {
-            "text": "<h2><strong>DRESS LIKE A BOSS</strong></h2>",
+            "text": "<h2><strong>DRESS LIKE A BOSS (better picture needed)</strong></h2>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
