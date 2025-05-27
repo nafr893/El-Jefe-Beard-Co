@@ -110,7 +110,11 @@ display: none ;
 
 }
 
-
+footer#shopify-section-sections--17222818103373__footer {
+  accordion-custom { 
+    width: fit-content; 
+  }
+}
 
 /* homepage styles */ 
 div#Hero-template--17222818529357__hero_pekt6C {
