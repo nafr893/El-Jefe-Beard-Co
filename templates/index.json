@@ -579,7 +579,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h6><strong>MONTHLY SUBSCRIPTIONS</strong></h6>",
+                "text": "<h6><strong>MONTHLY SUBSCRIPTION</strong></h6>",
                 "width": "100%",
                 "max_width": "narrow",
                 "alignment": "left",
