@@ -849,7 +849,7 @@
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
-                "type_preset": "h6",
+                "type_preset": "h5",
                 "font": "var(--font-heading--family)",
                 "font_size": "3rem",
                 "line_height": "tight",
