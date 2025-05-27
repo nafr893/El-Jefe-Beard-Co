@@ -401,7 +401,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "text": "<p>Keep up with everything El Jefe! When we send you an email, we'll make sure its worth your time. </p>",
-                    "width": "100%",
+                    "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
