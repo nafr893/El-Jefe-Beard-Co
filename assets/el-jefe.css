@@ -119,8 +119,11 @@ div#shopify-section-template--17222818529357__section_Qrc7Q4 {
 
             padding: 0px !important; 
             align-content: center; 
-            width: 80%;
-            font-size: 14px;  
+            
+            div#shopify-block-AL21GMGdwYmRLWnY0e__icon_KW49jB, div#shopify-block-AQlp0ZTYzSlpxTHkva__icon_zxY3wn, div#shopify-block-AdjNZQTJhT2dsZGR3d__icon_hjDCRj, div#shopify-block-AR1A2TWR6cGtBLzlOd__icon_WhPYAz {
+              width: 80%; 
+            }
+            
           }
     
     
