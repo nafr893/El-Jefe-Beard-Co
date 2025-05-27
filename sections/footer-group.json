@@ -382,6 +382,58 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "text_Mpi4em": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<h3><strong>KEEP ME UPDATED</strong></h3>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_6kJ3e7": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>Keep up with everything El Jefe! When we send you an email, we'll make sure its worth your time. </p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "group_jQPGTL": {
                   "type": "email-signup",
                   "name": "t:names.email_signup",
@@ -408,6 +460,8 @@
                 }
               },
               "block_order": [
+                "text_Mpi4em",
+                "text_6kJ3e7",
                 "group_jQPGTL"
               ]
             }
@@ -487,24 +541,29 @@
                 "padding-block-end": 0
               },
               "blocks": {
-                "footer_utilities_nrgGPL": {
+                "copyright": {
+                  "type": "_footer-copyright",
+                  "static": true,
+                  "settings": {
+                    "font_size": "0.75rem",
+                    "case": "none"
+                  },
+                  "blocks": {}
+                },
+                "policy_list": {
+                  "type": "_footer-policy-list",
+                  "static": true,
+                  "settings": {
+                    "font_size": "0.75rem",
+                    "case": "none"
+                  },
+                  "blocks": {}
+                },
+                "social_icons": {
                   "type": "_footer-social-icons",
-                  "disabled": true,
                   "static": true,
                   "settings": {},
-                  "blocks": {
-                    "footer_utilities_nrgGPL": {
-                      "type": "_social-link",
-                      "name": "YouTube",
-                      "settings": {
-                        "link": "https://www.youtube.com/shopify"
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "footer_utilities_nrgGPL"
-                  ]
+                  "blocks": {}
                 }
               },
               "block_order": []
