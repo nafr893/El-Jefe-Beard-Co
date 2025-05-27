@@ -91,7 +91,7 @@
               "settings": {
                 "menu": "shop-footer-menu",
                 "heading": "SHOP",
-                "menu_spacing": 12,
+                "menu_spacing": 10,
                 "show_as_accordion": true,
                 "accordion_icon": "plus",
                 "accordion_dividers": false,
@@ -112,7 +112,7 @@
               "settings": {
                 "menu": "footer-menu-company",
                 "heading": "COMPANY",
-                "menu_spacing": 12,
+                "menu_spacing": 10,
                 "show_as_accordion": true,
                 "accordion_icon": "caret",
                 "accordion_dividers": false,
@@ -160,7 +160,7 @@
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "padding-block-start": 0,
+                "padding-block-start": 11,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -186,7 +186,7 @@
                     "background_color": "#00000026",
                     "corner_radius": 0,
                     "padding-block-start": 0,
-                    "padding-block-end": 0,
+                    "padding-block-end": 9,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
