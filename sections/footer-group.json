@@ -402,7 +402,7 @@
                   "settings": {
                     "text": "<p>Keep up with everything El Jefe! When we send you an email, we'll make sure its worth your time. </p>",
                     "width": "100%",
-                    "max_width": "narrow",
+                    "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
