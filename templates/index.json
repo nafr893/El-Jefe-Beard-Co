@@ -847,9 +847,9 @@
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
-                "type_preset": "h4",
+                "type_preset": "h6",
                 "font": "var(--font-heading--family)",
                 "font_size": "3rem",
                 "line_height": "tight",
