@@ -171,7 +171,7 @@
                   "name": "t:names.heading",
                   "settings": {
                     "text": "<h4>FOLLOW US</h4>",
-                    "width": "fit-content",
+                    "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "rte",
@@ -231,6 +231,17 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "icon_H6j3mg": {
+                      "type": "icon",
+                      "name": "t:names.icon",
+                      "settings": {
+                        "icon": "instagram",
+                        "width": 24,
+                        "link": "",
+                        "open_in_new_tab": false
+                      },
+                      "blocks": {}
+                    },
                     "group_FGy7FJ": {
                       "type": "text",
                       "name": "t:names.text",
@@ -259,6 +270,7 @@
                     }
                   },
                   "block_order": [
+                    "icon_H6j3mg",
                     "group_FGy7FJ"
                   ]
                 },
@@ -301,6 +313,17 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
+                    "icon_zC94Hy": {
+                      "type": "icon",
+                      "name": "t:names.icon",
+                      "settings": {
+                        "icon": "facebook",
+                        "width": 24,
+                        "link": "",
+                        "open_in_new_tab": false
+                      },
+                      "blocks": {}
+                    },
                     "group_y7BrGn": {
                       "type": "text",
                       "name": "t:names.text",
@@ -329,6 +352,7 @@
                     }
                   },
                   "block_order": [
+                    "icon_zC94Hy",
                     "group_y7BrGn"
                   ]
                 }
