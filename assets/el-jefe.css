@@ -114,6 +114,10 @@ footer#shopify-section-sections--17222818103373__footer {
   accordion-custom { 
     width: fit-content; 
   }
+
+  .group-block-content {
+    width: fit-content; 
+  }
 }
 
 /* homepage styles */ 
