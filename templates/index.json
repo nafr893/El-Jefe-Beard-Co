@@ -320,7 +320,7 @@
               "settings": {
                 "icon": "fire",
                 "image_upload": "shopify://shop_images/AdobeStock_755182426.webp",
-                "width": 90,
+                "width": 80,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -403,7 +403,7 @@
               "settings": {
                 "icon": "fire",
                 "image_upload": "shopify://shop_images/natural_ingredients_1.2.png",
-                "width": 80,
+                "width": 76,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -486,7 +486,7 @@
               "settings": {
                 "icon": "fire",
                 "image_upload": "shopify://shop_images/delivery_box_icon_ca7a6605-257f-4de0-a9df-1a43a2ca455e.png",
-                "width": 60,
+                "width": 50,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -569,7 +569,7 @@
               "settings": {
                 "icon": "fire",
                 "image_upload": "shopify://shop_images/AdobeStock_752281984.png",
-                "width": 60,
+                "width": 56,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -623,7 +623,7 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 20,
+        "gap": 35,
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
@@ -639,8 +639,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 15,
-        "padding-block-end": 15
+        "padding-block-start": 25,
+        "padding-block-end": 25
       }
     },
     "product_list_qU3bEB": {
