@@ -110,8 +110,8 @@ padding-top: 40px;
 
 
 div#shopify-section-template--17222818529357__section_Qrc7Q4 {
-border-top: 1px solid rgb(241 241 241);
-border-bottom: 1px solid rgb(241 241 241);
+border-top: 1px solid rgb(241 241 241) !important;
+border-bottom: 1px solid rgb(241 241 241) !important;
 
 
        div.spacing-style.layout-panel-flex.layout-panel-flex--row.section-content-wrapper.mobile-column
