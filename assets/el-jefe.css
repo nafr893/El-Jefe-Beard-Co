@@ -115,8 +115,15 @@ div#shopify-section-template--17222818529357__section_Qrc7Q4 {
       display: grid;
           grid-template-columns: repeat(2, 1fr);
 
+          div.group-block.group-block--height-fit.group-block--width-fit-content.border-style.spacing-style.size-style {
 
-          
+            padding: 0px !important; 
+          }
+    
+    
+  
+
+
 }
 }
 
