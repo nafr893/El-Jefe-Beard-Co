@@ -292,7 +292,7 @@ h1, h3 {
 
 
 
-
+/* Custom Dropdown Styles */
 
   .custom-dropdown {
   position: relative;
@@ -302,9 +302,9 @@ h1, h3 {
   width: 100%;
   text-align: left;
   background: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   padding: 0.5em 2em 0.5em 0.5em;
-  border-radius: 4px;
+  border-radius: 2px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -317,7 +317,7 @@ h1, h3 {
   right: 0;
   top: 100%;
   background: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   border-radius: 0 0 4px 4px;
   z-index: 10;
   max-height: 200px;
@@ -333,6 +333,7 @@ h1, h3 {
   display: flex;
   align-items: center;
   gap: 0.5em;
+  border: 1px solid black;
 }
 .custom-dropdown__item[aria-selected="true"] {
   background: #f0f0f0;
@@ -348,3 +349,11 @@ button.custom-dropdown__selected {
     width: 3%; 
   }
 }
+
+.custom-dropdown {
+  span.swatch {
+    border-radius: 0px; 
+  }
+}
+
+/* end custom dropdown styles */
