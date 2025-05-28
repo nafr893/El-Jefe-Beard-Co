@@ -159,6 +159,11 @@ display: none ;
 
 }
 
+div.product-information__grid.product-information--media-left.product-information__grid--half{
+  width: 95%; 
+  padding-top: 2dvh; 
+}
+
 div#shopify-section-template--17222818529357__section_ALDMy9 {
   display: none; 
 }
