@@ -316,6 +316,7 @@
   >
     <form class="variant-picker__form">
       {%- for product_option in product_resource.options_with_values -%}
+        <!-- DEBUG: block.settings.variant_style = {{ block.settings.variant_style }}, swatch_count = {{ swatch_count }}, block.settings.show_swatches = {{ block.settings.show_swatches }}, variant_style = {{ variant_style }} -->
         {%- liquid
           assign swatch_count = product_option.values | map: 'swatch' | compact | size
           assign variant_style = block.settings.variant_style
@@ -326,12 +327,6 @@
             else
               assign variant_style = 'swatch'
             endif
-          endif
-
-          if variant_style == 'buttons' and settings.variant_button_width == 'equal-width-buttons'
-            assign fieldset_id = section.id | append: '-' | append: product_resource.id | append: '-' | append: product_option.name | handleize
-            assign option_id_attribute = 'data-option-id="' | append: fieldset_id | append: '"'
-            assign longest_value = 0
           endif
         -%}
 
@@ -403,6 +398,7 @@
 
           </fieldset>
 
+assign variant_style = 'swatch_dropdown'
 
 {%- elsif variant_style == 'swatch_dropdown' -%}
   <!-- DEBUG: swatch_dropdown code is running -->
