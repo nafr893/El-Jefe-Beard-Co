@@ -14,7 +14,6 @@
       "blocks": {
         "text_mh8W3q": {
           "type": "text",
-          "name": "t:names.text",
           "settings": {
             "text": "<p>ON SALE</p>",
             "width": "fit-content",
@@ -40,7 +39,6 @@
         },
         "text_idXHkj": {
           "type": "text",
-          "name": "t:names.heading",
           "settings": {
             "text": "<h2><strong>OIL + BUTTER COMBO</strong></h2>",
             "width": "fit-content",
@@ -66,7 +64,6 @@
         },
         "text_iXYWz6": {
           "type": "text",
-          "name": "t:names.text",
           "settings": {
             "text": "<p>Look and feel your best with our handmade beard care products.</p>",
             "width": "100%",
@@ -92,7 +89,6 @@
         },
         "button_jB9Mz8": {
           "type": "button",
-          "name": "t:names.button",
           "settings": {
             "label": "Shop now",
             "link": "shopify://products/oil-butter-combo",
@@ -112,7 +108,6 @@
         "text_iXYWz6",
         "button_jB9Mz8"
       ],
-      "name": "t:names.hero",
       "settings": {
         "link": "",
         "open_in_new_tab": false,
@@ -146,7 +141,6 @@
       "blocks": {
         "text_VffMkm": {
           "type": "text",
-          "name": "t:names.text",
           "settings": {
             "text": "<p>ON SALE</p>",
             "width": "fit-content",
@@ -172,7 +166,6 @@
         },
         "text_WdY4iF": {
           "type": "text",
-          "name": "t:names.heading",
           "settings": {
             "text": "<h2><strong>OIL + BALM BUNDLE</strong></h2>",
             "width": "fit-content",
@@ -198,7 +191,6 @@
         },
         "text_HFTLjP": {
           "type": "text",
-          "name": "t:names.text",
           "settings": {
             "text": "",
             "width": "100%",
@@ -224,7 +216,6 @@
         },
         "button_Y8iB4r": {
           "type": "button",
-          "name": "t:names.button",
           "settings": {
             "label": "Shop now",
             "link": "shopify://products/oil-butter-or-balm-combo",
@@ -244,7 +235,6 @@
         "text_HFTLjP",
         "button_Y8iB4r"
       ],
-      "name": "t:names.hero",
       "settings": {
         "link": "",
         "open_in_new_tab": false,
@@ -278,7 +268,6 @@
       "blocks": {
         "group_4Wzjbf": {
           "type": "group",
-          "name": "t:names.group",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -317,7 +306,6 @@
           "blocks": {
             "icon_KW49jB": {
               "type": "icon",
-              "name": "t:names.icon",
               "settings": {
                 "icon": "fire",
                 "image_upload": "shopify://shop_images/AdobeStock_755182426.webp",
@@ -329,7 +317,6 @@
             },
             "text_JH9UUY": {
               "type": "text",
-              "name": "t:names.text",
               "settings": {
                 "text": "<h6><strong>MADE IN THE USA</strong></h6>",
                 "width": "100%",
@@ -361,7 +348,6 @@
         },
         "group_8eK6En": {
           "type": "group",
-          "name": "t:names.group",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -400,7 +386,6 @@
           "blocks": {
             "icon_zxY3wn": {
               "type": "icon",
-              "name": "t:names.icon",
               "settings": {
                 "icon": "fire",
                 "image_upload": "shopify://shop_images/natural_ingredients_1.2.png",
@@ -412,7 +397,6 @@
             },
             "text_7B9Tt6": {
               "type": "text",
-              "name": "t:names.text",
               "settings": {
                 "text": "<h6><strong>NATURAL INGREDIENTS</strong></h6>",
                 "width": "100%",
@@ -444,7 +428,6 @@
         },
         "group_YnzQwt": {
           "type": "group",
-          "name": "t:names.group",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -483,7 +466,6 @@
           "blocks": {
             "icon_hjDCRj": {
               "type": "icon",
-              "name": "t:names.icon",
               "settings": {
                 "icon": "fire",
                 "image_upload": "shopify://shop_images/delivery_box_icon_ca7a6605-257f-4de0-a9df-1a43a2ca455e.png",
@@ -495,7 +477,6 @@
             },
             "text_wegGKV": {
               "type": "text",
-              "name": "t:names.text",
               "settings": {
                 "text": "<h6><strong>FREE SHIPPING OVER $50</strong></h6>",
                 "width": "100%",
@@ -527,7 +508,6 @@
         },
         "group_z8MQ7h": {
           "type": "group",
-          "name": "t:names.group",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -566,7 +546,6 @@
           "blocks": {
             "icon_WhPYAz": {
               "type": "icon",
-              "name": "t:names.icon",
               "settings": {
                 "icon": "fire",
                 "image_upload": "shopify://shop_images/AdobeStock_752281984.png",
@@ -578,7 +557,6 @@
             },
             "text_XyV9Jj": {
               "type": "text",
-              "name": "t:names.text",
               "settings": {
                 "text": "<h6><strong>MONTHLY SUBSCRIPTION</strong></h6>",
                 "width": "100%",
@@ -615,7 +593,6 @@
         "group_YnzQwt",
         "group_z8MQ7h"
       ],
-      "name": "t:names.custom_section",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -682,7 +659,6 @@
           "blocks": {
             "product_list_text_qLCTNF": {
               "type": "_product-list-text",
-              "name": "t:names.collection_title",
               "settings": {
                 "text": "<h3><strong>EL JEFE FAVORITES</strong></h3>",
                 "width": "fit-content",
@@ -708,7 +684,6 @@
             },
             "product_list_button_N8pfAg": {
               "type": "_product-list-button",
-              "name": "t:names.product_list_button",
               "settings": {
                 "label": "View all",
                 "collection": "{{ closest.collection }}",
@@ -729,7 +704,6 @@
         },
         "static-product-card": {
           "type": "product-card",
-          "name": "t:names.product_card",
           "static": true,
           "settings": {
             "product": "{{ closest.product }}",
@@ -748,7 +722,6 @@
           "blocks": {
             "product_card_gallery_JgqDGj": {
               "type": "_product-card-gallery",
-              "name": "t:names.product_card_media",
               "settings": {
                 "product": "{{ closest.product }}",
                 "image_ratio": "portrait",
@@ -765,7 +738,6 @@
             },
             "group_7VTJcC": {
               "type": "group",
-              "name": "t:names.group",
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
@@ -804,7 +776,6 @@
               "blocks": {
                 "product_title_dMgTDL": {
                   "type": "product-title",
-                  "name": "t:names.product_title",
                   "settings": {
                     "product": "{{ closest.product }}",
                     "width": "fit-content",
@@ -830,7 +801,6 @@
                 },
                 "review_xzNXPf": {
                   "type": "review",
-                  "name": "t:names.product_review_stars",
                   "settings": {
                     "product": "{{ closest.product }}",
                     "stars_style": "shaded",
@@ -843,7 +813,6 @@
                 },
                 "price_h6P4AF": {
                   "type": "price",
-                  "name": "t:names.product_price",
                   "settings": {
                     "product": "{{ closest.product }}",
                     "show_sale_price_first": true,
@@ -867,7 +836,6 @@
                 },
                 "swatches_k9YMgz": {
                   "type": "swatches",
-                  "name": "t:names.swatches",
                   "settings": {
                     "product": "{{ closest.product }}",
                     "product_swatches_alignment": "flex-start",
@@ -895,7 +863,6 @@
           ]
         }
       },
-      "name": "t:names.products_grid",
       "settings": {
         "collection": "best-sellers",
         "layout_type": "carousel",
@@ -970,7 +937,6 @@
         },
         "button_UmrBmx": {
           "type": "button",
-          "name": "t:names.button",
           "settings": {
             "label": "Shop Now",
             "link": "shopify://collections/all",
@@ -989,7 +955,6 @@
         "text_37Jbai",
         "button_UmrBmx"
       ],
-      "name": "t:names.hero",
       "settings": {
         "link": "",
         "open_in_new_tab": false,
@@ -1073,7 +1038,6 @@
         },
         "button_JgmM4t": {
           "type": "button",
-          "name": "t:names.button",
           "settings": {
             "label": "Shop Now",
             "link": "shopify://collections/all",
@@ -1092,7 +1056,6 @@
         "text_K9hnNf",
         "button_JgmM4t"
       ],
-      "name": "t:names.hero",
       "settings": {
         "link": "",
         "open_in_new_tab": false,
@@ -1126,7 +1089,6 @@
       "blocks": {
         "group_Lag7qb": {
           "type": "group",
-          "name": "t:names.header",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -1165,7 +1127,6 @@
           "blocks": {
             "text_FeBxX4": {
               "type": "text",
-              "name": "t:names.text",
               "settings": {
                 "text": "<h3><strong>SHOP BY PRODUCT</strong></h3>",
                 "width": "fit-content",
@@ -1196,7 +1157,6 @@
         },
         "static-collection-card": {
           "type": "collection-card",
-          "name": "t:names.collection_card",
           "static": true,
           "settings": {
             "collection": "{{ closest.collection }}",
@@ -1214,7 +1174,6 @@
           "blocks": {
             "collection_title_b7PhFA": {
               "type": "collection-title",
-              "name": "t:names.collection_title",
               "settings": {
                 "collection": "{{ closest.collection }}",
                 "width": "100%",
@@ -1240,7 +1199,6 @@
             },
             "button_4wbJXG": {
               "type": "button",
-              "name": "t:names.button",
               "settings": {
                 "label": "View More",
                 "link": "shopify://collections/all",
@@ -1255,7 +1213,6 @@
             },
             "collection-card-image": {
               "type": "_collection-card-image",
-              "name": "t:names.collection_card_image",
               "static": true,
               "settings": {
                 "collection": "{{ closest.collection }}",
@@ -1281,7 +1238,6 @@
       "block_order": [
         "group_Lag7qb"
       ],
-      "name": "t:names.collections_bento",
       "settings": {
         "collection_list": [
           "beard-products",
@@ -1373,7 +1329,6 @@
               "blocks": {
                 "icon_dJJfnU": {
                   "type": "icon",
-                  "name": "t:names.icon",
                   "settings": {
                     "icon": "star",
                     "image_upload": "shopify://shop_images/5_stars_1.1.png",
@@ -1410,7 +1365,6 @@
                 },
                 "text_e3kR6b": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h5>David R. </h5>",
                     "width": "fit-content",
@@ -1436,7 +1390,6 @@
                 },
                 "text_PWyEMF": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h6>Product: Beard Butter</h6>",
                     "width": "fit-content",
@@ -1538,7 +1491,6 @@
               "blocks": {
                 "icon_q4gMfG": {
                   "type": "icon",
-                  "name": "t:names.icon",
                   "settings": {
                     "icon": "star",
                     "image_upload": "shopify://shop_images/5_stars_1.1.png",
@@ -1575,7 +1527,6 @@
                 },
                 "text_XqdRWT": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h5>Chris D.</h5>",
                     "width": "fit-content",
@@ -1601,7 +1552,6 @@
                 },
                 "text_bBeVTh": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h6>Product: Beard Balm</h6>",
                     "width": "fit-content",
@@ -1703,7 +1653,6 @@
               "blocks": {
                 "icon_fKge3F": {
                   "type": "icon",
-                  "name": "t:names.icon",
                   "settings": {
                     "icon": "star",
                     "image_upload": "shopify://shop_images/5_stars_1.1.png",
@@ -1740,7 +1689,6 @@
                 },
                 "text_JgnwGD": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h5>Alex M.</h5>",
                     "width": "fit-content",
@@ -1766,7 +1714,6 @@
                 },
                 "text_JV9dxV": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h6>Product: Beard Oil</h6>",
                     "width": "fit-content",
@@ -1868,7 +1815,6 @@
               "blocks": {
                 "icon_gXKWae": {
                   "type": "icon",
-                  "name": "t:names.icon",
                   "settings": {
                     "icon": "star",
                     "image_upload": "shopify://shop_images/5_stars_1.1.png",
@@ -1905,7 +1851,6 @@
                 },
                 "text_miCxBb": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h5>Eric J.</h5>",
                     "width": "fit-content",
@@ -1931,7 +1876,6 @@
                 },
                 "text_U3ytkm": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h6>Product: Beard Balm</h6>",
                     "width": "fit-content",
@@ -1975,7 +1919,6 @@
         "slide_T7qMCN",
         "slide_yXXExE"
       ],
-      "name": "t:names.slideshow",
       "settings": {
         "icons_style": "arrows_large",
         "slideshow_controls_style": "dots",
@@ -1993,7 +1936,6 @@
       "blocks": {
         "group_rFkgHY": {
           "type": "group",
-          "name": "t:names.group",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -2032,7 +1974,6 @@
           "blocks": {
             "text_dJXGih": {
               "type": "text",
-              "name": "t:names.heading",
               "settings": {
                 "text": "<h2>OTF KNIVESS</h2>",
                 "width": "fit-content",
@@ -2058,7 +1999,6 @@
             },
             "image_dky9Gj": {
               "type": "image",
-              "name": "t:names.image",
               "settings": {
                 "link": "",
                 "image_ratio": "adapt",
@@ -2086,7 +2026,6 @@
         },
         "group_Y9P6zF": {
           "type": "group",
-          "name": "t:names.group",
           "settings": {
             "link": "",
             "open_in_new_tab": false,
@@ -2125,7 +2064,6 @@
           "blocks": {
             "image_zQhbnJ": {
               "type": "image",
-              "name": "t:names.image",
               "settings": {
                 "link": "",
                 "image_ratio": "landscape",
@@ -2147,7 +2085,6 @@
             },
             "image_AKR8K7": {
               "type": "image",
-              "name": "t:names.image",
               "settings": {
                 "link": "",
                 "image_ratio": "landscape",
@@ -2179,7 +2116,6 @@
         "group_Y9P6zF"
       ],
       "disabled": true,
-      "name": "t:names.custom_section",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -2251,7 +2187,6 @@
           "blocks": {
             "text_rrmJg4": {
               "type": "text",
-              "name": "t:names.heading",
               "settings": {
                 "text": "<h2><strong>STAY FRESH EVERY MONTH</strong></h2>",
                 "width": "fit-content",
@@ -2348,7 +2283,6 @@
         "group_YjrE84",
         "image_YxX7gh"
       ],
-      "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -2361,7 +2295,7 @@
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -2442,7 +2376,6 @@
           "blocks": {
             "text_dQqU6h": {
               "type": "text",
-              "name": "t:names.heading",
               "settings": {
                 "text": "<h2><strong>STAY FRESH EVERY MONTH</strong></h2>",
                 "width": "fit-content",
@@ -2517,7 +2450,6 @@
         "image_9iFc3h",
         "group_GxgbRf"
       ],
-      "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -2601,7 +2533,6 @@
         },
         "email_signup_kge6BA": {
           "type": "email-signup",
-          "name": "t:names.email_signup",
           "settings": {
             "width": "custom",
             "custom_width": 70,
@@ -2629,7 +2560,6 @@
         "text_x4FhwM",
         "email_signup_kge6BA"
       ],
-      "name": "t:names.hero",
       "settings": {
         "link": "",
         "open_in_new_tab": false,
