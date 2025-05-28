@@ -209,7 +209,6 @@
                 },
                 "product_inventory_PNJTKe": {
                   "type": "product-inventory",
-                  "name": "t:names.product_inventory",
                   "disabled": true,
                   "settings": {
                     "product": "{{ closest.product }}",
@@ -275,6 +274,7 @@
               "blocks": {
                 "quantity": {
                   "type": "quantity",
+                  "disabled": true,
                   "static": true,
                   "settings": {
                     "product": "{{ closest.product }}"
@@ -292,6 +292,48 @@
                 },
                 "accelerated-checkout": {
                   "type": "accelerated-checkout",
+                  "static": true,
+                  "settings": {
+                    "product": "{{ closest.product }}"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": []
+            },
+            "buy_buttons_GTG3KG": {
+              "type": "buy-buttons",
+              "name": "t:names.product_buy_buttons",
+              "settings": {
+                "product": "{{  closest.product }}",
+                "stacking": false,
+                "show_pickup_availability": true,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "quantity": {
+                  "type": "quantity",
+                  "static": true,
+                  "settings": {
+                    "product": "{{ closest.product }}"
+                  },
+                  "blocks": {}
+                },
+                "add-to-cart": {
+                  "type": "add-to-cart",
+                  "static": true,
+                  "settings": {
+                    "product": "{{ closest.product }}",
+                    "style_class": "button"
+                  },
+                  "blocks": {}
+                },
+                "accelerated-checkout": {
+                  "type": "accelerated-checkout",
+                  "disabled": true,
                   "static": true,
                   "settings": {
                     "product": "{{ closest.product }}"
@@ -750,6 +792,7 @@
             "divider_VJhene",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
+            "buy_buttons_GTG3KG",
             "group_JbmQwr",
             "accordion_GkgNTg",
             "text_aEtTtq"
