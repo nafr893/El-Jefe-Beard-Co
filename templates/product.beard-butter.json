@@ -207,9 +207,10 @@
                     "review_FGfTaK"
                   ]
                 },
-                "product_inventory_rDYiEb": {
+                "product_inventory_PNJTKe": {
                   "type": "product-inventory",
                   "name": "t:names.product_inventory",
+                  "disabled": true,
                   "settings": {
                     "product": "{{ closest.product }}",
                     "inventory_threshold": 10,
@@ -230,7 +231,7 @@
               "block_order": [
                 "text_Bc9tLL",
                 "group_iyt7yq",
-                "product_inventory_rDYiEb",
+                "product_inventory_PNJTKe",
                 "judge_me_reviews_preview_badge_9YFyBg"
               ]
             },
