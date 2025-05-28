@@ -426,7 +426,6 @@
             },
             "accordion_GkgNTg": {
               "type": "accordion",
-              "name": "t:names.accordion",
               "settings": {
                 "icon": "caret",
                 "dividers": true,
@@ -453,7 +452,7 @@
                     "text_dE83TU": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn't the case, let us know and we'll do our best to work with you to make it right.</p>",
+                        "text": "<p><strong>Beeswax</strong> – Offers a natural, medium hold that helps keep your beard in place without feeling heavy or greasy.</p><p><strong>Shea Butter</strong> – Deeply hydrates and softens your beard, leaving it smooth, touchable, and healthy.</p><p><strong>Apricot Kernel Oil</strong> – Light and rich in vitamins, it nourishes and smooths, while promoting a healthy shine.</p><p><strong>Virgin Organic Avocado Oil</strong> – Packed with vitamins A, D, and E, it strengthens and repairs your beard and skin.</p><p><strong>Golden Organic Jojoba Oil</strong> – Balances moisture, prevents irritation, and helps keep your beard soft and smooth.</p><p><strong>Virgin Organic Argan Nut Oil</strong> – Known for its restorative and moisturizing properties, it helps reduce frizz and split ends.</p><p><strong>Extra Virgin Organic Pumpkin Seed Oil</strong> – Provides essential fatty acids and antioxidants to fortify and condition your beard.</p><p><strong>Virgin Organic Rosehip Oil</strong> – Regenerates skin, adds softness to the beard, and promotes healthy growth.</p><p><strong>Vitamin E Oil</strong> – Protects your beard and skin from environmental stressors, helping maintain a fresh, healthy appearance.</p><p><strong>Organic Sweet Almond Oil</strong> – Conditions and soothes dry skin, reducing irritation beneath the beard.</p><p><strong>Grape Seed Oil</strong> – A lightweight oil that deeply nourishes without leaving a greasy feel.</p><p><strong>Essential Oils for Scent</strong> – A natural fragrance that’s fresh, clean, and masculine, leaving your beard smelling as good as it looks.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -490,7 +489,7 @@
                     "text_nDwNih": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                        "text": "<p>Provides medium hold to shape and control your beard</p><p>Softens and conditions, leaving your beard healthy and shiny</p><p>Reduces frizz and split ends for a smooth finish</p><p>Moisturizes both beard and skin beneath</p><p>Adds a clean, natural fragrance that lasts</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -527,7 +526,7 @@
                     "text_Ab6kzc": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                        "text": "<p>Scoop a small amount of <strong>El Jefe Beard Balm</strong> and warm it between your palms. Massage into your beard, starting from the roots and working through to the tips. Style as desired. Use daily or as needed to maintain a well-groomed look.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
