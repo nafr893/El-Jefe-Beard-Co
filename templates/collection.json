@@ -14,7 +14,6 @@
       "blocks": {
         "text_tqQTNE": {
           "type": "text",
-          "name": "Collection title",
           "settings": {
             "text": "<p>{{ closest.collection.title }}</p>",
             "width": "fit-content",
@@ -40,7 +39,6 @@
         },
         "text_twGGkJ": {
           "type": "text",
-          "name": "t:names.text",
           "settings": {
             "text": "{{ closest.collection.description }}",
             "width": "fit-content",
@@ -69,7 +67,6 @@
         "text_tqQTNE",
         "text_twGGkJ"
       ],
-      "name": "Heading",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -132,9 +129,9 @@
             "product_card_gap": 12,
             "inherit_color_scheme": true,
             "color_scheme": "",
-            "border": "none",
+            "border": "solid",
             "border_width": 1,
-            "border_opacity": 100,
+            "border_opacity": 15,
             "border_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
@@ -198,7 +195,6 @@
               "blocks": {
                 "product_title_3QjUff": {
                   "type": "product-title",
-                  "name": "t:names.product_title",
                   "settings": {
                     "product": "{{ closest.product }}",
                     "width": "fit-content",
@@ -247,7 +243,7 @@
                 },
                 "swatches_xWhL7M": {
                   "type": "swatches",
-                  "name": "t:names.swatches",
+                  "disabled": true,
                   "settings": {
                     "product": "{{ closest.product }}",
                     "product_swatches_alignment": "flex-start",

@@ -836,6 +836,7 @@
                 },
                 "swatches_k9YMgz": {
                   "type": "swatches",
+                  "disabled": true,
                   "settings": {
                     "product": "{{ closest.product }}",
                     "product_swatches_alignment": "flex-start",

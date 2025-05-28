@@ -17,15 +17,15 @@
           "static": true,
           "settings": {
             "product": "{{ closest.product }}",
-            "media_presentation": "carousel",
+            "media_presentation": "grid",
             "media_columns": "two",
             "image_gap": 2,
             "large_first_image": true,
             "icons_style": "none",
-            "slideshow_controls_style": "thumbnails",
+            "slideshow_controls_style": "counter",
             "slideshow_mobile_controls_style": "dots",
-            "thumbnail_position": "left",
-            "thumbnail_width": 72,
+            "thumbnail_position": "right",
+            "thumbnail_width": 44,
             "aspect_ratio": "1",
             "media_radius": 0,
             "extend_media": false,
@@ -103,14 +103,14 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_Bc9tLL": {
+                "text_xrnftG": {
                   "type": "text",
                   "settings": {
                     "text": "<h1>{{ closest.product.title }}</h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h3",
+                    "type_preset": "h2",
                     "font": "var(--font-primary--family)",
                     "font_size": "",
                     "line_height": "normal",
@@ -128,97 +128,33 @@
                   },
                   "blocks": {}
                 },
-                "group_iyt7yq": {
-                  "type": "group",
-                  "name": "t:names.group",
+                "price_tVjtKg": {
+                  "type": "price",
                   "settings": {
-                    "link": "",
-                    "open_in_new_tab": false,
-                    "content_direction": "row",
-                    "vertical_on_mobile": true,
-                    "horizontal_alignment": "space-between",
-                    "vertical_alignment": "center",
-                    "align_baseline": false,
-                    "horizontal_alignment_flex_direction_column": "flex-start",
-                    "vertical_alignment_flex_direction_column": "center",
-                    "gap": 12,
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "custom_height": 100,
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
-                    "background_media": "none",
-                    "video_position": "cover",
-                    "background_image_position": "cover",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "toggle_overlay": false,
-                    "overlay_color": "#00000026",
-                    "overlay_style": "solid",
-                    "gradient_direction": "to top",
-                    "padding-block-start": 0,
+                    "product": "{{ closest.product }}",
+                    "show_sale_price_first": true,
+                    "show_installments": false,
+                    "show_tax_info": false,
+                    "type_preset": "paragraph",
+                    "width": "100%",
+                    "alignment": "left",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 4,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
                   },
-                  "blocks": {
-                    "price_9rMHkF": {
-                      "type": "price",
-                      "settings": {
-                        "product": "{{ closest.product }}",
-                        "show_sale_price_first": true,
-                        "show_installments": false,
-                        "show_tax_info": false,
-                        "type_preset": "h4",
-                        "width": "100%",
-                        "alignment": "left",
-                        "font": "var(--font-body--family)",
-                        "font_size": "1rem",
-                        "line_height": "normal",
-                        "letter_spacing": "normal",
-                        "case": "none",
-                        "color": "var(--color-foreground)",
-                        "padding-block-start": 4,
-                        "padding-block-end": 0,
-                        "padding-inline-start": 0,
-                        "padding-inline-end": 0
-                      },
-                      "blocks": {}
-                    },
-                    "review_FGfTaK": {
-                      "type": "review",
-                      "name": "t:names.product_review_stars",
-                      "settings": {
-                        "product": "{{ closest.product }}",
-                        "stars_style": "shaded",
-                        "show_number": true,
-                        "rating_color": "primary",
-                        "type_preset": "paragraph",
-                        "alignment": "right"
-                      },
-                      "blocks": {}
-                    }
-                  },
-                  "block_order": [
-                    "price_9rMHkF",
-                    "review_FGfTaK"
-                  ]
-                },
-                "judge_me_reviews_preview_badge_9YFyBg": {
-                  "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-                  "disabled": true,
-                  "settings": {}
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_Bc9tLL",
-                "group_iyt7yq",
-                "judge_me_reviews_preview_badge_9YFyBg"
+                "text_xrnftG",
+                "price_tVjtKg"
               ]
             },
             "divider_VJhene": {
@@ -517,7 +453,7 @@
                     "text_dE83TU": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Beeswax</strong> – Provides a light, natural hold while locking in moisture and protecting your beard from environmental stressors.</p><p><strong>Shea Butter</strong> – Deeply nourishes and softens, making your beard smooth and more manageable.</p><p><strong>Apricot Kernel Oil</strong> – Rich in vitamins and fatty acids to hydrate and condition without clogging pores.</p><p><strong>Virgin Organic Avocado Oil</strong> – Full of vitamins A, D, and E, it strengthens your beard while deeply moisturizing.</p><p><strong>Golden Organic Jojoba Oil</strong> – Mimics natural skin oils, balancing moisture and preventing irritation beneath the beard.</p><p><strong>Virgin Organic Argan Nut Oil</strong> – Known for its restorative properties, it nourishes and protects, adding shine and promoting healthy growth.</p><p><strong>Extra Virgin Organic Pumpkin Seed Oil</strong> – Rich in zinc and omega-3s, it helps to strengthen and condition hair, reducing breakage.</p><p><strong>Virgin Organic Rosehip Oil</strong> – Packed with vitamins A and C, it helps to regenerate skin and adds softness to your beard.</p><p><strong>Vitamin E Oil</strong> – An antioxidant that protects against environmental damage and helps your beard maintain its health and shine.</p><p><strong>Organic Sweet Almond Oil</strong> – Softens and smooths while reducing dryness and irritation.</p><p><strong>Grape Seed Oil</strong> – Lightweight and moisturizing, it nourishes without weighing your beard down.</p><p><strong>Essential Oils for Scent</strong> – A clean, fresh fragrance that leaves your beard smelling as good as it looks.</p>",
+                        "text": "<p><strong>Beeswax</strong> (in the Balm) – Provides a light, natural hold for shaping and taming your beard, without feeling heavy or greasy.</p><p><strong>Shea Butter</strong> (in both) – Deeply nourishes and softens, making your beard smooth, manageable, and healthy.</p><p><strong>Apricot Kernel Oil</strong> (in both) – Rich in vitamins, it hydrates and conditions your beard without clogging pores.</p><p><strong>Virgin Organic Avocado Oil</strong> (in both) – Full of vitamins A, D, and E, it strengthens and repairs your beard while deeply moisturizing.</p><p><strong>Golden Organic Jojoba Oil</strong> (in both) – Balances moisture and prevents irritation beneath the beard, keeping your skin calm and healthy.</p><p><strong>Virgin Organic Argan Nut Oil</strong> (in both) – Known for its restorative and moisturizing properties, it adds shine, reduces frizz, and promotes healthy growth.</p><p><strong>Organic Sweet Almond Oil</strong> (in both) – Softens and smooths your beard, while reducing dryness and irritation.</p><p><strong>Grape Seed Oil</strong> (in both) – Lightweight and moisturizing, it nourishes without weighing your beard down.</p><p><strong>Vitamin E Oil</strong> (in both) – Protects and strengthens your beard, locking in moisture and preventing damage from environmental stressors.</p><p><strong>Essential Oils for Scent</strong> (in both) – A clean, fresh fragrance that leaves your beard smelling as good as it feels.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -554,7 +490,7 @@
                     "text_nDwNih": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Softens and conditions even the most unruly beards</p><p>Provides light hold for shaping and styling</p><p>Hydrates and nourishes the beard and skin beneath</p><p>Adds healthy shine without the greasy feel</p><p>Reduces frizz and split ends</p>",
+                        "text": "<p><strong>Beard Oil</strong>: Hydrates, nourishes, and softens your beard while promoting healthy growth and reducing itch.</p><p><strong>Beard Balm</strong>: Provides light hold, tames frizz, and shapes your beard while keeping it soft and healthy.</p><p><strong>Together</strong>: The perfect combo for deep hydration, nourishment, and control, giving you a smooth, healthy beard that stays styled and feels great.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -591,7 +527,7 @@
                     "text_Ab6kzc": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Scoop a small amount of <strong>El Jefe Beard Butter</strong> and rub between your palms until it melts. Apply evenly through a clean, damp beard. Style and shape as desired. Use daily for best results.</p>",
+                        "text": "<p><strong>Beard Oil</strong>: Massage a few drops of <strong>El Jefe Beard Oil</strong> into your beard and skin to hydrate, soften, and promote healthy growth. Use daily or as needed.</p><p><strong>Beard Balm</strong>: Scoop a small amount of <strong>El Jefe Beard Balm</strong>, warm it between your palms, and apply it to your beard for medium hold and styling. Shape your beard as desired.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -666,51 +602,12 @@
         "product": "{{ closest.product }}",
         "content_width": "content-center-aligned",
         "desktop_media_position": "left",
-        "equal_columns": true,
+        "equal_columns": false,
         "limit_details_width": false,
         "gap": 48,
         "color_scheme": "scheme-2",
         "padding-block-start": 0,
         "padding-block-end": 0
-      }
-    },
-    "17484524420c97b703": {
-      "type": "_blocks",
-      "blocks": {
-        "judge_me_reviews_review_widget_JWc8TQ": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_JWc8TQ"
-      ],
-      "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-2",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 70,
-        "padding-block-end": 70
       }
     },
     "product_recommendations_qggXJq": {
@@ -915,7 +812,6 @@
   },
   "order": [
     "main",
-    "17484524420c97b703",
     "product_recommendations_qggXJq"
   ]
 }
