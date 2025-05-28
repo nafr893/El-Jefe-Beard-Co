@@ -426,7 +426,6 @@
             },
             "accordion_GkgNTg": {
               "type": "accordion",
-              "name": "t:names.accordion",
               "settings": {
                 "icon": "caret",
                 "dividers": true,
