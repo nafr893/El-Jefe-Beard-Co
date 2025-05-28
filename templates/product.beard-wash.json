@@ -159,6 +159,7 @@
             },
             "divider_VJhene": {
               "type": "_divider",
+              "disabled": true,
               "settings": {
                 "thickness": 1,
                 "corner_radius": "square",
@@ -446,7 +447,7 @@
                   "type": "_accordion-row",
                   "settings": {
                     "heading": "INGREDIENTS",
-                    "open_by_default": true
+                    "open_by_default": false
                   },
                   "blocks": {
                     "text_dE83TU": {
