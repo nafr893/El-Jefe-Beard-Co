@@ -426,7 +426,6 @@
             },
             "accordion_GkgNTg": {
               "type": "accordion",
-              "name": "t:names.accordion",
               "settings": {
                 "icon": "caret",
                 "dividers": true,
@@ -453,7 +452,7 @@
                     "text_dE83TU": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn't the case, let us know and we'll do our best to work with you to make it right.</p>",
+                        "text": "<p><strong>Apricot Kernel Oil</strong> – Lightweight and vitamin-rich; softens coarse hair without clogging pores.</p><p><strong>Virgin Organic Avocado Oil</strong> – Deeply moisturizing; packed with vitamins A, D & E for hair and skin health.</p><p><strong>Golden Organic Jojoba Oil</strong> – Mimics natural skin oils to balance moisture and reduce beard itch.</p><p><strong>Virgin Organic Argan Nut Oil</strong> – Repairs damage and promotes healthy growth with antioxidants and omega fatty acids.</p><p><strong>Extra Virgin Organic Pumpkin Seed Oil</strong> – Strengthens strands and helps reduce hair breakage.</p><p><strong>Virgin Organic Rosehip Oil</strong> – Rich in vitamins A & C; supports beard softness and skin regeneration.</p><p><strong>Vitamin E Oil</strong> – A powerful antioxidant that helps preserve freshness and boosts skin elasticity.</p><p><strong>Organic Sweet Almond Oil</strong> – Smooths and conditions while reducing irritation and dryness.</p><p><strong>Grape Seed Oil</strong> – Lightweight moisture that won’t weigh your beard down.</p><p><strong>Essential Oils for Scent</strong> – Natural fragrance that smells clean, bold, and unmistakably masculine.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -490,7 +489,7 @@
                     "text_nDwNih": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                        "text": "<p>Softens beard hair and adds healthy shine</p><p>Reduces dryness, itch, and irritation</p><p>Moisturizes skin to prevent beardruff</p><p>Promotes healthy growth and manageability</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -527,7 +526,7 @@
                     "text_Ab6kzc": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>",
+                        "text": "<p>Apply 2–5 drops (more for longer beards) to your palms. Rub hands together and work through your beard from root to tip. Use daily for best results, and follow with El Jefe Beard Balm for added hold and styling.</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
