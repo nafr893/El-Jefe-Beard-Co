@@ -405,6 +405,8 @@
 
 
 {%- elsif variant_style == 'swatch_dropdown' -%}
+  <!-- DEBUG: swatch_dropdown code is running -->
+  <div style="color: red; font-weight: bold;">DEBUG: swatch_dropdown active</div>
   <div class="variant-option variant-option--swatch-dropdown">
     <label for="Option-{{ block.id }}-{{ forloop.index0 }}">{{ product_option.name | escape }}</label>
     <div class="variant-option__select-wrapper" style="position:relative;">
