@@ -250,7 +250,7 @@
               "type": "variant-picker",
               "settings": {
                 "product": "{{ closest.product }}",
-                "variant_style": "dropdowns",
+                "variant_style": "dropdown",
                 "show_swatches": true,
                 "alignment": "left",
                 "padding-block-start": 0,
@@ -291,6 +291,7 @@
                 },
                 "accelerated-checkout": {
                   "type": "accelerated-checkout",
+                  "disabled": true,
                   "static": true,
                   "settings": {
                     "product": "{{ closest.product }}"
