@@ -15,7 +15,7 @@
         "title": {
           "type": "text",
           "settings": {
-            "text": "<h2>{{ closest.page.title }}</h2>",
+            "text": "<h2><strong>Contact Us</strong></h2>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
