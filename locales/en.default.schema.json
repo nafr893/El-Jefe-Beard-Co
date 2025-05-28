@@ -159,6 +159,8 @@
     "accelerated_checkout": "Accelerated checkout",
     "accordion": "Accordion",
     "accordion_row": "Accordion row",
+    "product_accordion": "Product accordion",
+    "product_accordion_row": "Product accordion row",
     "add_to_cart": "Add to cart",
     "alternating_content_rows": "Alternating rows",
     "animations": "Animations",
