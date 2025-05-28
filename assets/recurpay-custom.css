@@ -4,12 +4,3 @@ body .recurpay__widget .recurpay__action {
 body .recurpay-hide, button.recurpay-hide {
  display: block !important;
 }
-.quantity-add-container {
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Adjust spacing between quantity and button */
-}
-
-.product-form__quantity {
-  margin: 0;
-}
