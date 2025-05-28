@@ -417,26 +417,24 @@
   
     <label>{{ product_option.name | escape }}</label>
     <button type="button" class="custom-dropdown__selected" aria-haspopup="listbox" aria-expanded="false">
-      {%- assign selected_value = product_option.values | where: "selected", true | first -%}
-      <span class="swatch"
-        style="
-          display:inline-block;vertical-align:middle;margin-right:0.5em;width:20px;height:20px;border-radius:50%;
-          background:
-            {%- if selected_value.swatch.image -%}
-              url('{{ selected_value.swatch.image | image_url: width: 40 }}') center/cover
-            {%- elsif selected_value.swatch.color -%}
-              {{ selected_value.swatch.color }}
-            {%- else -%}
-              #eee
-            {%- endif -%};
-        "
-      ></span>
-      <span class="custom-dropdown__selected-label">
-        {{ selected_value.swatch.label | default: selected_value }}
+      <span class="custom-dropdown__selected-inner" style="display: flex; align-items: center; justify-content: center;">
+        <span class="swatch"
+          style="
+            display:inline-block;vertical-align:middle;margin-right:0.5em;width:20px;height:20px;border-radius:50%;
+            background:
+              {%- if selected_value.swatch.image -%}
+                url('{{ selected_value.swatch.image | image_url: width: 40 }}') center/cover
+              {%- elsif selected_value.swatch.color -%}
+                {{ selected_value.swatch.color }}
+              {%- else -%}
+                #eee
+              {%- endif -%};
+          "
+        ></span>
+        <span class="custom-dropdown__selected-label">
+          {{ selected_value.swatch.label | default: selected_value }}
+        </span>
       </span>
-   
-
-      
       <svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false">
         {%- render 'icon', icon: 'caret' -%}
       </svg>
@@ -448,22 +446,21 @@
             role="option"
             data-value="{{ product_option_value | escape }}"
             {% if product_option_value.selected %}aria-selected="true"{% endif %}>
-          <div class="custom-dropdown__item-inner" style="display:flex;align-items:center;">
-            <span class="swatch"
-              style="
-                display:inline-block;vertical-align:middle;margin-right:0.5em;width:20px;height:20px;border-radius:50%;
-                background:
-                  {%- if product_option_value.swatch.image -%}
-                    url('{{ product_option_value.swatch.image | image_url: width: 40 }}') center/cover
-                  {%- elsif product_option_value.swatch.color -%}
-                    {{ product_option_value.swatch.color }}
-                  {%- else -%}
-                    #eee
-                  {%- endif -%};
-              "
-            ></span>
-            <span>{{ product_option_value.swatch.label | default: product_option_value }}</span>
-          </div>
+          <span class="swatch"
+            style="
+              display:inline-block;vertical-align:middle;margin-right:0.5em;width:20px;height:20px;border-radius:50%;
+              background:
+                {%- if product_option_value.swatch.image -%}
+                  url('{{ product_option_value.swatch.image | image_url: width: 40 }}') center/cover
+                {%- elsif product_option_value.swatch.color -%}
+                  {{ product_option_value.swatch.color }}
+                {%- else -%}
+                  #eee
+                {%- endif -%};
+            "
+          ></span>
+
+          <span>{{ product_option_value.swatch.label | default: product_option_value }}</span>
         </li>
       {%- endfor -%}
     </ul>
