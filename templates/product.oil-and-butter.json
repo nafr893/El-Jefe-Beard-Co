@@ -452,11 +452,11 @@
                     "text_dE83TU": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn't the case, let us know and we'll do our best to work with you to make it right.</p>",
+                        "text": "<p><strong>Beeswax</strong> (in the Butter) – Provides a light, natural hold to keep your beard in place, while locking in moisture without being heavy or greasy.</p><p><br/><strong>Shea Butter</strong> (in both) – Deeply nourishes and softens your beard, leaving it smooth, manageable, and hydrated.<br/><br/><strong> Apricot Kernel Oil </strong>(in both) – Rich in vitamins A and E, it hydrates and softens your beard, while helping to reduce beard itch.<br/><br/><strong>Virgin Organic Avocado Oil</strong> (in both) – Packed with vitamins A, D, and E, it strengthens, repairs, and nourishes your beard while promoting healthy growth.<br/><br/><strong>Golden Organic Jojoba Oil</strong> (in both) – Balances moisture levels and prevents irritation beneath your beard, keeping the skin smooth and comfortable.<br/><br/><strong>Virgin Organic Argan Nut Oil </strong>(in both) – Known for its restorative and moisturizing properties, it helps reduce frizz, adding a natural shine to your beard.</p><p><br/><strong>Organic Sweet Almond Oil </strong>(in both) – Softens and smooths while reducing dryness, making your beard look healthier and more manageable.</p><p><br/><strong>Grape Seed Oil</strong> (in both) – A lightweight, non-greasy oil that nourishes your beard without weighing it down, leaving it soft and smooth.</p><p><br/><strong> Vitamin E Oil</strong> (in both) – Protects against environmental damage, helping to maintain your beard’s health and shine.</p><p><strong>Essential Oils for Scent </strong>(in both) – A masculine, fresh fragrance that leaves your beard smelling clean and inviting all day long.<br/><br/></p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
-                        "type_preset": "rte",
+                        "type_preset": "paragraph",
                         "font": "var(--font-body--family)",
                         "font_size": "1rem",
                         "line_height": "normal",
