@@ -2324,7 +2324,7 @@
         "image_YxX7gh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/subscription-box-1.5.webp",
+            "image": "shopify://shop_images/subscription-1.6.webp",
             "link": "",
             "image_ratio": "adapt",
             "width": "custom",
