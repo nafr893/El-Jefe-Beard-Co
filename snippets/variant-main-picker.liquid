@@ -328,7 +328,13 @@
             endif
           endif
 
-          assign variant_style = 'swatch_dropdown'  // <-- FORCE swatch_dropdown for testing
+          
+
+          if variant_style == 'buttons' and settings.variant_button_width == 'equal-width-buttons'
+            assign fieldset_id = section.id | append: '-' | append: product_resource.id | append: '-' | append: product_option.name | handleize
+            assign option_id_attribute = 'data-option-id="' | append: fieldset_id | append: '"'
+            assign longest_value = 0
+          endif
         -%}
 
         {%- if variant_style == 'swatch' or block.settings.variant_style == 'buttons' -%}
