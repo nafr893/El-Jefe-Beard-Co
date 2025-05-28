@@ -407,9 +407,12 @@
 
 
 
-{%- elsif variant_style == 'swatch_dropdown' -%}
-  <!-- DEBUG: swatch_dropdown code is running -->
-  <div style="color: red; font-weight: bold;">DEBUG: swatch_dropdown active</div>
+
+
+
+
+
+ {%- elsif variant_style == 'swatch_dropdown' -%}
   <div class="variant-option variant-option--swatch-dropdown">
     <label for="Option-{{ block.id }}-{{ forloop.index0 }}">{{ product_option.name | escape }}</label>
     <div class="variant-option__select-wrapper" style="position:relative;">
@@ -417,7 +420,22 @@
       {%- if selected_value and selected_value.swatch -%}
         <span
           class="swatch swatch--dropdown"
-          style="display:inline-block;vertical-align:middle;margin-right:0.5em;--swatch-background:{% if selected_value.swatch.image %}url('{{ selected_value.swatch.image | image_url: width: 40 }}'){% elsif selected_value.swatch.color %}{{ selected_value.swatch.color }}{% else %}#eee{% endif %};width:20px;height:20px;border-radius:50%;background:var(--swatch-background);"
+          style="
+            display:inline-block;
+            vertical-align:middle;
+            margin-right:0.5em;
+            width:20px;
+            height:20px;
+            border-radius:50%;
+            background:
+              {%- if selected_value.swatch.image -%}
+                url('{{ selected_value.swatch.image | image_url: width: 40 }}') center/cover
+              {%- elsif selected_value.swatch.color -%}
+                {{ selected_value.swatch.color }}
+              {%- else -%}
+                #eee
+              {%- endif -%};
+          "
         ></span>
       {%- endif -%}
       <select
@@ -440,19 +458,6 @@
       </svg>
     </div>
   </div>
-
-
-
-
-
- {%
-
-
-            #enter swatch dropdown code here *** swatch_drodown
-          %}
-
-
-
         {%- elsif block.settings.variant_style == 'dropdowns' -%}
           {%
             # There is an opportunity to build a custom select component that will allow us to style the select element further (animation for dropdown, swatches shown in the dropdown options, etc)
