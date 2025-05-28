@@ -414,6 +414,7 @@
 
  {%- elsif variant_style == 'swatch_dropdown' -%}
   <div class="custom-dropdown variant-option variant-option--swatch-dropdown" data-option-index="{{ forloop.index0 }}">
+  
     <label>{{ product_option.name | escape }}</label>
     <button type="button" class="custom-dropdown__selected" aria-haspopup="listbox" aria-expanded="false">
       {%- assign selected_value = product_option.values | where: "selected", true | first -%}
@@ -433,30 +434,36 @@
       <span class="custom-dropdown__selected-label">
         {{ selected_value.swatch.label | default: selected_value }}
       </span>
+   
+
+      
       <svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false">
         {%- render 'icon', icon: 'caret' -%}
       </svg>
     </button>
+
     <ul class="custom-dropdown__list" tabindex="-1" role="listbox" style="display:none;">
       {%- for product_option_value in product_option.values -%}
         <li class="custom-dropdown__item"
             role="option"
             data-value="{{ product_option_value | escape }}"
             {% if product_option_value.selected %}aria-selected="true"{% endif %}>
-          <span class="swatch"
-            style="
-              display:inline-block;vertical-align:middle;margin-right:0.5em;width:20px;height:20px;border-radius:50%;
-              background:
-                {%- if product_option_value.swatch.image -%}
-                  url('{{ product_option_value.swatch.image | image_url: width: 40 }}') center/cover
-                {%- elsif product_option_value.swatch.color -%}
-                  {{ product_option_value.swatch.color }}
-                {%- else -%}
-                  #eee
-                {%- endif -%};
-            "
-          ></span>
-          <span>{{ product_option_value.swatch.label | default: product_option_value }}</span>
+          <div class="custom-dropdown__item-inner" style="display:flex;align-items:center;">
+            <span class="swatch"
+              style="
+                display:inline-block;vertical-align:middle;margin-right:0.5em;width:20px;height:20px;border-radius:50%;
+                background:
+                  {%- if product_option_value.swatch.image -%}
+                    url('{{ product_option_value.swatch.image | image_url: width: 40 }}') center/cover
+                  {%- elsif product_option_value.swatch.color -%}
+                    {{ product_option_value.swatch.color }}
+                  {%- else -%}
+                    #eee
+                  {%- endif -%};
+              "
+            ></span>
+            <span>{{ product_option_value.swatch.label | default: product_option_value }}</span>
+          </div>
         </li>
       {%- endfor -%}
     </ul>

@@ -308,6 +308,7 @@ h1, h3 {
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: space-between; 
   gap: 0.5em;
 }
 .custom-dropdown__list {
@@ -343,7 +344,6 @@ h1, h3 {
 
 button.custom-dropdown__selected {
 
-  justify-content: space-between; 
   svg.icon.icon-caret {
     width: 3%; 
   }
