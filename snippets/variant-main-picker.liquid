@@ -417,6 +417,7 @@
   
     <label>{{ product_option.name | escape }}</label>
     <button type="button" class="custom-dropdown__selected" aria-haspopup="listbox" aria-expanded="false">
+       {%- assign selected_value = product_option.values | where: "selected", true | first -%}
       <span class="custom-dropdown__selected-inner" style="display: flex; align-items: center; justify-content: center;">
         <span class="swatch"
           style="
