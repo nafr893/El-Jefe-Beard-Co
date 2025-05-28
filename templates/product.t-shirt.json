@@ -12,10 +12,6 @@
     "main": {
       "type": "product-information",
       "blocks": {
-        "judge_me_reviews_review_widget_fKgrQJ": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
         "media-gallery": {
           "type": "_product-media-gallery",
           "static": true,
@@ -132,18 +128,9 @@
                   },
                   "blocks": {}
                 },
-                "review_gcz8Bi": {
-                  "type": "review",
-                  "name": "t:names.product_review_stars",
-                  "settings": {
-                    "product": "{{ closest.product }}",
-                    "stars_style": "shaded",
-                    "show_number": true,
-                    "rating_color": "primary",
-                    "type_preset": "paragraph",
-                    "alignment": "left"
-                  },
-                  "blocks": {}
+                "judge_me_reviews_preview_badge_MhT7Xy": {
+                  "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+                  "settings": {}
                 },
                 "price_tVjtKg": {
                   "type": "price",
@@ -171,7 +158,7 @@
               },
               "block_order": [
                 "text_xrnftG",
-                "review_gcz8Bi",
+                "judge_me_reviews_preview_badge_MhT7Xy",
                 "price_tVjtKg"
               ]
             },
@@ -617,9 +604,6 @@
           ]
         }
       },
-      "block_order": [
-        "judge_me_reviews_review_widget_fKgrQJ"
-      ],
       "settings": {
         "product": "{{ closest.product }}",
         "content_width": "content-center-aligned",
