@@ -413,50 +413,53 @@
 
 
  {%- elsif variant_style == 'swatch_dropdown' -%}
-  <div class="variant-option variant-option--swatch-dropdown">
-    <label for="Option-{{ block.id }}-{{ forloop.index0 }}">{{ product_option.name | escape }}</label>
-    <div class="variant-option__select-wrapper" style="position:relative;">
+  <div class="custom-dropdown variant-option variant-option--swatch-dropdown" data-option-index="{{ forloop.index0 }}">
+    <label>{{ product_option.name | escape }}</label>
+    <button type="button" class="custom-dropdown__selected" aria-haspopup="listbox" aria-expanded="false">
       {%- assign selected_value = product_option.values | where: "selected", true | first -%}
-      {%- if selected_value and selected_value.swatch -%}
-   <span
-  class="swatch swatch--dropdown js-dropdown-swatch"
-  style="display:inline-block;vertical-align:middle;margin-right:0.5em;width:20px;height:20px;border-radius:50%;
-    background:
-      {%- if selected_value.swatch.image -%}
-        url('{{ selected_value.swatch.image | image_url: width: 40 }}') center/cover
-      {%- elsif selected_value.swatch.color -%}
-        {{ selected_value.swatch.color }}
-      {%- else -%}
-        #eee
-      {%- endif -%};
-  "
-></span>
-      {%- endif -%}
-      <select
-        id="Option-{{ block.id }}-{{ forloop.index0 }}"
-        name="options[{{ product_option.name | escape }}]"
-        class="variant-option__select"
-      >
-        {%- for product_option_value in product_option.values -%}
-          <option
-            value="{{ product_option_value | escape }}"
-            data-variant-id="{{ product_option_value.variant.id }}"
-            {% if product_option_value.swatch and product_option_value.swatch.color %}
-              data-swatch-color="{{ product_option_value.swatch.color }}"
-            {% endif %}
-            {% if product_option_value.swatch and product_option_value.swatch.image %}
-              data-swatch-image="{{ product_option_value.swatch.image | image_url: width: 40 }}"
-            {% endif %}
-            {% if product_option_value.selected %}selected{% endif %}
-          >
-            {{ product_option_value.swatch.label | default: product_option_value }}
-          </option>
-        {%- endfor -%}
-      </select>
+      <span class="swatch"
+        style="
+          display:inline-block;vertical-align:middle;margin-right:0.5em;width:20px;height:20px;border-radius:50%;
+          background:
+            {%- if selected_value.swatch.image -%}
+              url('{{ selected_value.swatch.image | image_url: width: 40 }}') center/cover
+            {%- elsif selected_value.swatch.color -%}
+              {{ selected_value.swatch.color }}
+            {%- else -%}
+              #eee
+            {%- endif -%};
+        "
+      ></span>
+      <span class="custom-dropdown__selected-label">
+        {{ selected_value.swatch.label | default: selected_value }}
+      </span>
       <svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false">
         {%- render 'icon', icon: 'caret' -%}
       </svg>
-    </div>
+    </button>
+    <ul class="custom-dropdown__list" tabindex="-1" role="listbox" style="display:none;">
+      {%- for product_option_value in product_option.values -%}
+        <li class="custom-dropdown__item"
+            role="option"
+            data-value="{{ product_option_value | escape }}"
+            {% if product_option_value.selected %}aria-selected="true"{% endif %}>
+          <span class="swatch"
+            style="
+              display:inline-block;vertical-align:middle;margin-right:0.5em;width:20px;height:20px;border-radius:50%;
+              background:
+                {%- if product_option_value.swatch.image -%}
+                  url('{{ product_option_value.swatch.image | image_url: width: 40 }}') center/cover
+                {%- elsif product_option_value.swatch.color -%}
+                  {{ product_option_value.swatch.color }}
+                {%- else -%}
+                  #eee
+                {%- endif -%};
+            "
+          ></span>
+          <span>{{ product_option_value.swatch.label | default: product_option_value }}</span>
+        </li>
+      {%- endfor -%}
+    </ul>
   </div>
         {%- elsif block.settings.variant_style == 'dropdowns' -%}
           {%
@@ -533,21 +536,45 @@
     <!-- swatch_dropdown javascript code -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.variant-option--swatch-dropdown').forEach(function(dropdownWrapper) {
-    var select = dropdownWrapper.querySelector('select');
-    var swatch = dropdownWrapper.querySelector('.js-dropdown-swatch');
-    if (!select || !swatch) return;
+  document.querySelectorAll('.custom-dropdown').forEach(function(dropdown) {
+    const button = dropdown.querySelector('.custom-dropdown__selected');
+    const list = dropdown.querySelector('.custom-dropdown__list');
+    const items = dropdown.querySelectorAll('.custom-dropdown__item');
+    const selectedLabel = button.querySelector('.custom-dropdown__selected-label');
+    const selectedSwatch = button.querySelector('.swatch');
 
-    select.addEventListener('change', function() {
-      var selectedOption = select.options[select.selectedIndex];
-      var color = selectedOption.getAttribute('data-swatch-color');
-      var image = selectedOption.getAttribute('data-swatch-image');
-      if (image) {
-        swatch.style.background = "url('" + image + "') center/cover";
-      } else if (color) {
-        swatch.style.background = color;
-      } else {
-        swatch.style.background = '#eee';
+    // Toggle dropdown
+    button.addEventListener('click', function() {
+      const expanded = button.getAttribute('aria-expanded') === 'true';
+      button.setAttribute('aria-expanded', !expanded);
+      list.style.display = expanded ? 'none' : 'block';
+    });
+
+    // Select item
+    items.forEach(function(item) {
+      item.addEventListener('click', function() {
+        // Update label and swatch
+        selectedLabel.textContent = item.querySelector('span:last-child').textContent;
+        selectedSwatch.style.background = item.querySelector('.swatch').style.background;
+
+        // Mark selected
+        items.forEach(i => i.removeAttribute('aria-selected'));
+        item.setAttribute('aria-selected', 'true');
+
+        // Hide list
+        list.style.display = 'none';
+        button.setAttribute('aria-expanded', 'false');
+
+        // TODO: Trigger Shopify variant change here!
+        // You may need to trigger a change event or call your variant JS logic.
+      });
+    });
+
+    // Close dropdown on outside click
+    document.addEventListener('click', function(e) {
+      if (!dropdown.contains(e.target)) {
+        list.style.display = 'none';
+        button.setAttribute('aria-expanded', 'false');
       }
     });
   });
@@ -556,4 +583,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   </variant-picker>
-{% endunless %}
+    {% endunless %}
