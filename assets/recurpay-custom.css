@@ -1,0 +1,6 @@
+body .recurpay__widget .recurpay__action {
+ display: none !important;
+}
+body .recurpay-hide, button.recurpay-hide {
+ display: block !important;
+}
