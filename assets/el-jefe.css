@@ -340,3 +340,9 @@ h1, h3 {
 .custom-dropdown__item:hover {
   background: #e0e0e0;
 }
+
+button.custom-dropdown__selected {
+  svg.icon.icon-caret {
+    width: 20%; 
+  }
+}
