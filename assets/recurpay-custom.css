@@ -4,20 +4,3 @@ body .recurpay__widget .recurpay__action {
 body .recurpay-hide, button.recurpay-hide {
  display: block !important;
 }
-.quantity-cart-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 16px; /* Space between quantity and button */
-  margin-bottom: 20px; /* Pushes this group above the rest */
-}
-
-.quantity-selector-wrapper {
-  flex: 0 0 auto;
-  max-width: 130px; /* Adjust as needed */
-}
-
-/* Optional: Ensure Add to Cart button sizing is consistent */
-.add-to-cart-button {
-  padding: 10px 20px;
-  font-size: 16px;
-}
