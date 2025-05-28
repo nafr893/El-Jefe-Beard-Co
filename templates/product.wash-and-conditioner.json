@@ -452,7 +452,7 @@
                     "text_dE83TU": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn't the case, let us know and we'll do our best to work with you to make it right.</p>",
+                        "text": "<p><strong>Beard Wash</strong></p><p>Gently cleanses with Organic Aloe Vera, Coconut-Based Surfactants & Hemp Seed Oil</p><p>Removes dirt, oil, and product buildup without drying</p><p>Calms itchy, irritated skin under the beard</p><p><strong>Beard Conditioner</strong></p><p>Deeply moisturizes with Castor Oil, Avocado Oil & Panthenol</p><p>Softens coarse hair and reduces tangles and frizz</p><p>Enhances manageability and promotes healthy growth</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -489,7 +489,7 @@
                     "text_nDwNih": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                        "text": "<p>Made with clean, effective ingredients</p><p>Light, non-greasy finish</p><p>Works for all beard types and lengths</p><p>Free of sulfates, parabens, and harsh chemicals</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
