@@ -250,7 +250,7 @@
               "type": "variant-picker",
               "settings": {
                 "product": "{{ closest.product }}",
-                "variant_style": "dropdowns",
+                "variant_style": "dropdown",
                 "show_swatches": true,
                 "alignment": "left",
                 "padding-block-start": 0,
