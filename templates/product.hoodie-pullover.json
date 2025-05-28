@@ -426,6 +426,7 @@
             },
             "accordion_GkgNTg": {
               "type": "accordion",
+              "disabled": true,
               "settings": {
                 "icon": "caret",
                 "dividers": true,
