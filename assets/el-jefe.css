@@ -342,6 +342,8 @@ h1, h3 {
 }
 
 button.custom-dropdown__selected {
+
+  justify-content: space-between; 
   svg.icon.icon-caret {
     width: 3%; 
   }
