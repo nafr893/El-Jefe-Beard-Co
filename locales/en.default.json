@@ -232,7 +232,8 @@
     "placeholder_image": "Placeholder image",
     "quantity": "Quantity",
     "recently_viewed_products": "Recently viewed",
-    "reviews": "Reviews",
+    /* reviews text disabled */
+    "reviews": "",
     "read_more": "Read more...",
     "search_input_label": "Search",
     "search_input_placeholder": "Search",
