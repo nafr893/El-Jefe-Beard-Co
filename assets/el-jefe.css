@@ -355,6 +355,15 @@ button.custom-dropdown__selected {
     border-radius: 0px; 
   }
 
+span.custom-dropdown__selected-label {
+      font-weight: 700;
+    font-size: 16px;
+    font-family: poppins;
+}
+span.custom-dropdown__selected-inner {
+  gap: 5px; 
+}
+
   .scroller {
     width: 10px;
       scrollbar-color: rgb(240, 240, 240) #fdfdfd;
