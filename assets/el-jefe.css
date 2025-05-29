@@ -400,9 +400,8 @@ nav.breadcrumbs {
 ol#breadcrumbs__list {
   display: flex; 
 }
-nav.breadcrumbs {
-  #text {
-    color: red; 
-  }
+.breadcrumb-text {
+color: red; 
 }
+
 }
