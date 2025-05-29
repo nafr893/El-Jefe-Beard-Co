@@ -403,8 +403,11 @@ margin: 0px;
 height: fit-content; 
 
 
+
 .breadcrumbs__list {
   display: flex; 
+  align-items: baseline; 
+  margin: 0px; 
 }
 li#breadcrumb-text, a#breadcrumb-text {
 color: #2c2c2c; 
