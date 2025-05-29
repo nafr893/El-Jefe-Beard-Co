@@ -24,7 +24,7 @@ body {
 html {
   /* Firefox */
   scrollbar-width: thin;
-  scrollbar-color: rgb(from var(--color-foreground) r g b / 40%) var(--color-background);
+  scrollbar-color: rgb(from var(--color-foreground) r g b / 40%) #f5f5f5;
   scroll-behavior: smooth;
 }
 
@@ -3032,11 +3032,11 @@ slideshow-slides {
   }
 
   &::-webkit-scrollbar-track {
-    background: transparent;
+    background: #f5f5f5;
   }
 
   &::-webkit-scrollbar-thumb {
-    background: transparent;
+    background: #888;
     border: none;
   }
 
@@ -3829,10 +3829,11 @@ text-component {
 /* Webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;
+  background: #f5f5f5
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #e0e0e0 ;
+  background-color: #f5f5f5; 
 }
 
 ::-webkit-scrollbar-thumb {
