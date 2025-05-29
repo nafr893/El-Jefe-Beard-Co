@@ -414,6 +414,7 @@ height: fit-content;
  @media (max-width: 480px) {
 .breadcrumbs__list {
 padding-left: 10px !important ; 
+padding-top: 3px; 
 
 }
 }
