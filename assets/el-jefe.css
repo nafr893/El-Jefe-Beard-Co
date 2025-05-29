@@ -371,11 +371,12 @@ fill: #000000;
 }
 
 
+}
+
+
   .scroller {
     width: 10px;
       scrollbar-color: rgb(240, 240, 240) #fdfdfd;
   }
-}
-
 
 /* end custom dropdown styles */
