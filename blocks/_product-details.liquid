@@ -25,6 +25,7 @@
     }
   }
 {% endstylesheet %}
+{% render 'breadcrumbs', collection: collection %}
 
 <div
   id="ProductInformation-{{ section.id }}"
@@ -110,10 +111,7 @@
     {
       "type": "product-inventory"
     },
-    {
-      "type": "breadcrumbs",
-      "name": "Breadcrumbs"
-    }
+    
   ],
   "tag": null,
   "settings": [
