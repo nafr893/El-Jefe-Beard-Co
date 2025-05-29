@@ -449,7 +449,7 @@
             {% if product_option_value.selected %}aria-selected="true"{% endif %}>
           <span class="swatch"
             style="
-              display:inline-block;vertical-align:middle;margin-right:0.5em;width:20px;height:20px;border-radius:50%;
+              display:inline-block;vertical-align:middle;
               background:
                 {%- if product_option_value.swatch.image -%}
                   url('{{ product_option_value.swatch.image | image_url: width: 40 }}') center/cover
