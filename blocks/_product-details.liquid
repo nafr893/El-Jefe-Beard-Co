@@ -25,7 +25,7 @@
     }
   }
 {% endstylesheet %}
-{% render 'breadcrumbs', collection: collection %}
+
 
 <div
   id="ProductInformation-{{ section.id }}"
@@ -35,6 +35,8 @@
     data-view-transition-type="product-details"
   {% endif %}
 >
+
+{% render 'breadcrumbs', collection: collection %}
   <div class="view-product-title">
     <a
       href="{{ product.selected_or_first_available_variant.url }}"
