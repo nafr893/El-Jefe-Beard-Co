@@ -801,7 +801,6 @@
                 },
                 "review_PKKiLN": {
                   "type": "review",
-                  "name": "t:names.product_review_stars",
                   "settings": {
                     "product": "{{ closest.product }}",
                     "stars_style": "shaded",
@@ -1050,7 +1049,7 @@
           "type": "button",
           "settings": {
             "label": "Shop Now",
-            "link": "shopify://collections/all",
+            "link": "shopify://collections/merch",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "custom",
@@ -1083,7 +1082,7 @@
         "section_width": "page-width",
         "section_height": "custom",
         "section_height_custom": 90,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "toggle_overlay": false,
         "overlay_color": "#00000026",
         "overlay_style": "gradient",
@@ -2249,7 +2248,7 @@
               "type": "button",
               "settings": {
                 "label": "Shop now",
-                "link": "shopify://collections/all",
+                "link": "shopify://collections/beard-products",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "custom",
