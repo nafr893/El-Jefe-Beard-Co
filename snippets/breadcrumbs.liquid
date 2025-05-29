@@ -9,14 +9,18 @@
     {%- if template.name == '404' -%}
       <li aria-current="page" style="list-style: none;" >Page not found</li>
     {%- endif -%}
-    <li><a href="{{ routes.root_url }}" id="breadcrumb-text" style="list-style: none;" >Home/</a></li>
+    <li><a href="{{ routes.root_url }}" id="breadcrumb-text" style="list-style: none;">Home/</a></li>
     {%- if collection -%}
       <li>
-        <a href="{{ collection.url }}" id="breadcrumb-text" >{{ collection.title }}/</a>
+        <a href="{{ collection.url }}" id="breadcrumb-text">{{ collection.title }}/</a>
+      </li>
+    {%- elsif product.collections.size > 0 -%}
+      <li>
+        <a href="{{ product.collections.first.url }}" id="breadcrumb-text">{{ product.collections.first.title }}/</a>
       </li>
     {%- endif -%}
     {%- if template.name == 'product' -%}
-      <li aria-current="page" id="breadcrumb-text" style="list-style: none;" >{{ product.title }}/</li>
+      <li aria-current="page" id="breadcrumb-text" style="list-style: none;">{{ product.title }}/</li>
     {%- endif -%}
   </ol>
 </nav>
