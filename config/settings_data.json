@@ -45,7 +45,7 @@
     "page_width": "narrow",
     "badge_position": "top-right",
     "badge_corner_radius": 2,
-    "badge_sale_color_scheme": "scheme-1",
+    "badge_sale_color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
     "badge_sold_out_color_scheme": "scheme-6",
     "badge_text_transform": "none",
     "primary_button_border_width": 0,
@@ -294,7 +294,7 @@
       },
       "scheme-6": {
         "settings": {
-          "background": "#545454",
+          "background": "#525252",
           "foreground_heading": "#ffffff",
           "foreground": "#ffffff",
           "primary": "#ffffff",
@@ -333,9 +333,9 @@
       },
       "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7": {
         "settings": {
-          "background": "rgba(0,0,0,0)",
-          "foreground_heading": "#000000",
-          "foreground": "#000000",
+          "background": "#cfa74b",
+          "foreground_heading": "#ffffff",
+          "foreground": "#fafafa",
           "primary": "#000000",
           "primary_hover": "#00000087",
           "border": "#e6e6e6",
