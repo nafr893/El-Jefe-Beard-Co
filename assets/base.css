@@ -2684,10 +2684,12 @@ fly-to-cart {
 @keyframes slideOutBottom {
   from {
     transform: translateY(0);
+    opacity: 1;
   }
 
   to {
     transform: translateY(100%);
+    opacity: 0;
   }
 }
 
@@ -3826,7 +3828,7 @@ text-component {
 
 /* Webkit browsers */
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
