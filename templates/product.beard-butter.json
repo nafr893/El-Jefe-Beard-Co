@@ -306,9 +306,9 @@
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "space-between",
                 "vertical_alignment": "center",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
@@ -345,8 +345,8 @@
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "row",
-                    "vertical_on_mobile": false,
-                    "horizontal_alignment": "flex-start",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "center",
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
@@ -381,7 +381,7 @@
                       "type": "icon",
                       "settings": {
                         "icon": "plant",
-                        "width": 16,
+                        "width": 34,
                         "link": "",
                         "open_in_new_tab": false
                       },
@@ -424,8 +424,8 @@
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "row",
-                    "vertical_on_mobile": false,
-                    "horizontal_alignment": "flex-start",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "center",
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
@@ -460,7 +460,7 @@
                       "type": "icon",
                       "settings": {
                         "icon": "truck",
-                        "width": 16,
+                        "width": 34,
                         "link": "",
                         "open_in_new_tab": false
                       },
@@ -503,8 +503,8 @@
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "row",
-                    "vertical_on_mobile": false,
-                    "horizontal_alignment": "flex-start",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "center",
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
@@ -538,8 +538,8 @@
                     "icon_kqeLmr": {
                       "type": "icon",
                       "settings": {
-                        "icon": "return",
-                        "width": 16,
+                        "icon": "box",
+                        "width": 34,
                         "link": "",
                         "open_in_new_tab": false
                       },
@@ -548,7 +548,7 @@
                     "text_97ypyG": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Flexible returns</p>",
+                        "text": "<p>$50+ Free Shipping</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
