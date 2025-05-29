@@ -3660,7 +3660,7 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
 .layout-panel-flex--row > .group-block--width-fit {
   flex: 0;
 }
-//* turned off width for footer 
+/* turned off width for footer 
 .layout-panel-flex--row > .group-block--width-fill {
   flex: 1;
 }
