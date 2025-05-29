@@ -413,7 +413,7 @@ height: fit-content;
 
  @media (max-width: 480px) {
 .breadcrumbs__list {
-padding-left: 10x; 
+padding-left: 10x !important ; 
 
 }
 }
