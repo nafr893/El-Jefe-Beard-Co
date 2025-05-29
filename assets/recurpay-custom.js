@@ -4,17 +4,14 @@ function handleMutations(mutationsList) {
       if (document.getElementsByClassName('recurpay__widget').length > 0) {
         const container = document.querySelector('.shopify-product-form');
         if (container) {
-          debugger;
           const quantitySelector = container.querySelector('.quantity-selector');
           if (quantitySelector) {
             const addToCart = container.querySelector("add-to-cart-component");
+            const wrapperDiv = document.createElement('div');
+            wrapperDiv.className = 'quantity-cart-btn-wrapper';
+            wrapperDiv.appendChild(quantitySelector);
 
-            const customDiv = document.createElement('div');
-            customDiv.className = 'quantity-cart-wrapper';
-            // customDiv.textContent = 'This is a custom div';
-
-            addToCart.insertBefore(customDiv, quantitySelector);
-            addToCart.appendChild(quantitySelector);
+            addToCart.appendChild(wrapperDiv);
           }
         }
         recurpay_observer.disconnect();
