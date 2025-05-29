@@ -3840,7 +3840,7 @@ text-component {
   background-color: #888 !important ;
   color: #888 !important;
   border-radius: 20px;
-  border: 6px solid transparent;
+  border: 6px solid #888;
   background-clip: content-box;
   transition: background-color 0.2s;
 }
