@@ -15,9 +15,17 @@
         <a href="{{ collection.url }}" id="breadcrumb-text">{{ collection.title }}/</a>
       </li>
     {%- elsif product.collections.size > 0 -%}
-      <li>
-        <a href="{{ product.collections.first.url }}" id="breadcrumb-text">{{ product.collections.first.title }}/</a>
-      </li>
+      {%- assign fallback_collection = blank -%}
+      {%- for c in product.collections -%}
+        {%- if c.handle != 'all' and fallback_collection == blank -%}
+          {%- assign fallback_collection = c -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if fallback_collection -%}
+        <li>
+          <a href="{{ fallback_collection.url }}" id="breadcrumb-text">{{ fallback_collection.title }}/</a>
+        </li>
+      {%- endif -%}
     {%- endif -%}
     {%- if template.name == 'product' -%}
       <li aria-current="page" id="breadcrumb-text" style="list-style: none;">{{ product.title }}/</li>
