@@ -1,13 +1,22 @@
 <nav class="breadcrumbs" aria-label="Breadcrumb">
-  <ol>
-    <li><a href="{{ routes.root_url }}">Home</a></li>
+  <ol class="breadcrumbs__list" id="breadcrumbs_list" >
+    {%- if template.name == 'index' -%}
+      <li aria-current="page">Home</li>
+    {%- endif -%}
+    {%- if template.name == 'search' -%}
+      <li aria-current="page">Search</li>
+    {%- endif -%}
+    {%- if template.name == '404' -%}
+      <li aria-current="page">Page not found</li>
+    {%- endif -%}
+    <li><a href="{{ routes.root_url }}">Home/</a></li>
     {%- if collection -%}
       <li>
-        <a href="{{ collection.url }}">{{ collection.title }}</a>
+        <a href="{{ collection.url }}">{{ collection.title }}/</a>
       </li>
     {%- endif -%}
     {%- if template.name == 'product' -%}
-      <li aria-current="page">{{ product.title }}</li>
+      <li aria-current="page">{{ product.title }}/</li>
     {%- endif -%}
   </ol>
 </nav>
