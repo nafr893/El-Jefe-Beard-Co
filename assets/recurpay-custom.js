@@ -10,8 +10,9 @@ function handleMutations(mutationsList) {
             const wrapperDiv = document.createElement('div');
             wrapperDiv.className = 'quantity-cart-btn-wrapper';
             wrapperDiv.appendChild(quantitySelector);
-
             addToCart.appendChild(wrapperDiv);
+            const addToCartButton = container.querySelector(".add-to-cart-button");
+            wrapperDiv.appendChild(addToCartButton);
           }
         }
         recurpay_observer.disconnect();
