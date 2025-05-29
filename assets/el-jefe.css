@@ -434,8 +434,3 @@ li#breadcrumb-text::marker {
 p.rating-count.paragraph {
   font-size: 14px; 
 }
-
-div.product-badges.product-badges--top-right {
-font-weight: bold !important; 
-text-transform: uppercase !important; 
-}
