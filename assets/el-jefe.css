@@ -394,14 +394,9 @@ span.recurpay__offer_saving_message {
 }
 }
 
+
+
 nav.breadcrumbs {
-  
-
-  li::marker {
-    display: none; 
-  }
-}
-
 ol#breadcrumbs__list {
   display: flex; 
 }
@@ -409,4 +404,5 @@ nav.breadcrumbs {
   #text {
     color: red; 
   }
+}
 }
