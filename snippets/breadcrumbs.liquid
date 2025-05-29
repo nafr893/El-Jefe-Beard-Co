@@ -1,0 +1,13 @@
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="{{ routes.root_url }}">Home</a></li>
+    {%- if collection -%}
+      <li>
+        <a href="{{ collection.url }}">{{ collection.title }}</a>
+      </li>
+    {%- endif -%}
+    {%- if template.name == 'product' -%}
+      <li aria-current="page">{{ product.title }}</li>
+    {%- endif -%}
+  </ol>
+</nav>
