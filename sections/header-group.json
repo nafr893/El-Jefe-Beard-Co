@@ -18,7 +18,7 @@
           "type": "_announcement",
           "settings": {
             "text": "Free Shipping Over $50",
-            "link": "shopify://products/scarab",
+            "link": "shopify://collections/beard-products",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "weight": "",
@@ -31,7 +31,6 @@
       "block_order": [
         "announcement_eQRJBJ"
       ],
-      "name": "t:names.announcement_bar",
       "settings": {
         "speed": 5,
         "section_width": "page-width",
@@ -43,7 +42,6 @@
     },
     "divider_XR7GpF": {
       "type": "divider",
-      "name": "t:names.divider_section",
       "settings": {
         "color_scheme": "scheme-2",
         "section_width": "full-width",
