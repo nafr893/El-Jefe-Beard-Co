@@ -44,7 +44,7 @@
           "type": "_product-details",
           "static": true,
           "settings": {
-            "gap": 28,
+            "gap": 20,
             "sticky_details_desktop": true,
             "width": "fill",
             "custom_width": 100,
@@ -164,7 +164,7 @@
                     "overlay_color": "#00000026",
                     "overlay_style": "solid",
                     "gradient_direction": "to top",
-                    "padding-block-start": 0,
+                    "padding-block-start": 15,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
