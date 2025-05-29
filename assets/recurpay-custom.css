@@ -6,7 +6,7 @@ body .recurpay-hide, button.recurpay-hide {
 }
 .quantity-cart-btn-wrapper{
   display: flex;
-  gap: 12px;
+  gap: 10px;
 }
 .quantity-cart-btn-wrapper quantity-selector-component{
   height: 58px;
