@@ -400,7 +400,7 @@ nav.breadcrumbs {
 .breadcrumbs__list {
   display: flex; 
 }
-.breadcrumb-text {
+li#breadcrumb-text, a#breadcrumb-text {
 color: red; 
 }
 
