@@ -398,6 +398,10 @@ span.recurpay__offer_saving_message {
 
 nav.breadcrumbs {
 padding-top: 1%; 
+padding-bottom: 1%; 
+margin: 0; 
+height: fit-content; 
+
 
 .breadcrumbs__list {
   display: flex; 
