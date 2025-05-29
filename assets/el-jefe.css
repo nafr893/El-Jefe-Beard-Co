@@ -431,6 +431,6 @@ li#breadcrumb-text::marker {
 
 }
 
-p.rating-count paragraph {
+p.rating-count.paragraph {
   font-size: 14px; 
 }
