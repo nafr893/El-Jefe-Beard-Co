@@ -362,7 +362,7 @@ span.custom-dropdown__selected-label {
     color: #000000; 
 }
 span.custom-dropdown__selected-inner {
-  gap: .5em; 
+  gap: .7em; 
 }
 
 svg.icon.icon-caret {
