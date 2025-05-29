@@ -4,6 +4,7 @@ function handleMutations(mutationsList) {
       if (document.getElementsByClassName('recurpay__widget').length > 0) {
         const container = document.querySelector('.shopify-product-form');
         if (container) {
+          debugger;
           const quantitySelector = container.querySelector('.quantity-selector');
           if (quantitySelector) {
             const addToCart = container.querySelector("add-to-cart-component");
