@@ -435,7 +435,7 @@ p.rating-count.paragraph {
   font-size: 14px; 
 }
 
-.product-badges.product-badges--top-right {
+div.product-badges.product-badges--top-right {
 font-weight: bold; 
 text-transform: uppercase; 
 }
