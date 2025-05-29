@@ -366,8 +366,9 @@ span.custom-dropdown__selected-inner {
 }
 
 svg.icon.icon-caret {
+  path {
 fill: #000000 !important ; 
- 
+  }
 }
 
 
