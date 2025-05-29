@@ -3829,7 +3829,7 @@ text-component {
 /* Webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;
-  background: #888;
+  background: #888 !important;
 }
 
 ::-webkit-scrollbar-track {
