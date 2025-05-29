@@ -359,6 +359,7 @@ span.custom-dropdown__selected-label {
       font-weight: 700;
     font-size: 16px;
     font-family: poppins;
+    color: #000000; 
 }
 span.custom-dropdown__selected-inner {
   gap: 5px; 
