@@ -103,7 +103,7 @@
                   "settings": {
                     "text": "<h2><strong>Let's Keep In Touch! </strong></h2>",
                     "width": "fit-content",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "h3",
                     "font": "var(--font-body--family)",
