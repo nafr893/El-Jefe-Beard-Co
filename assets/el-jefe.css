@@ -374,9 +374,8 @@ fill: #000000;
 }
 
 
-  .scroller {
-    width: 10px;
-      scrollbar-color: rgb(240, 240, 240) #fdfdfd;
-  }
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
 
 /* end custom dropdown styles */
