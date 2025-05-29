@@ -3832,11 +3832,11 @@ text-component {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #e0e0e0 !important; /* Replace with your desired color */
+  background-color: #e0e0e0 ;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #888 !important; /* Replace with your desired color */
+  background-color: #888 ;
   border-radius: 20px;
   border: 6px solid transparent;
   background-clip: content-box;
