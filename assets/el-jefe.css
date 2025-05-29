@@ -410,6 +410,15 @@ height: fit-content;
   margin: 0px; 
   gap: 3px; 
 }
+
+ @media (max-width: 480px) {
+.breadcrumbs__list {
+padding-left: 10x; 
+
+}
+}
+
+
 li#breadcrumb-text, a#breadcrumb-text {
 color: #2c2c2c; 
 font-size: 14px !important ; 
