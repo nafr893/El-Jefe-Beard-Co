@@ -37,7 +37,6 @@
           "blocks": {
             "text_YMppJV": {
               "type": "text",
-              "name": "t:names.caption",
               "settings": {
                 "text": "<p>ABOUT US</p>",
                 "width": "fit-content",
@@ -101,15 +100,14 @@
               "blocks": {
                 "text_FXibxK": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h2><strong>Our Grooming Passion</strong></h2>",
-                    "width": "fit-content",
+                    "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h3",
+                    "type_preset": "custom",
                     "font": "var(--font-body--family)",
-                    "font_size": "1rem",
+                    "font_size": "2rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
@@ -129,8 +127,8 @@
                   "type": "text",
                   "settings": {
                     "text": "<p>My wife and I started our men's beard products business out of a shared passion for quality grooming and the frustration of finding the right products. For years, I struggled with beard care options that either irritated my skin or didn’t deliver the desired results.</p><p>Focusing on natural ingredients that were both gentle and effective. Encouraged by the enthusiastic feedback from friends and family, we realized we had something special.</p><p>Motivated by our success, we decided to turn our passion project into a business. We launched our brand with the mission to provide men with the highest quality grooming products made from natural ingredients. Today, our products are celebrated for their effectiveness and our commitment to natural solutions, helping men everywhere feel confident and well-groomed.</p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
+                    "width": "100%",
+                    "max_width": "none",
                     "alignment": "left",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",
@@ -179,7 +177,6 @@
           ]
         }
       },
-      "name": "t:names.editorial",
       "settings": {
         "media_position": "right",
         "media_width": "medium",
