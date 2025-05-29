@@ -10,7 +10,6 @@ function handleMutations(mutationsList) {
               container.querySelector("add-to-cart-component").appendChild(quantitySelector);
             }
           }
-          handleRadioChange();
           recurpay_observer.disconnect();
           break;
         }
