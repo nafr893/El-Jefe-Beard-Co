@@ -3837,7 +3837,7 @@ text-component {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #888 ;
+  background-color: #888 !important ;
   color: #888;
   border-radius: 20px;
   border: 6px solid transparent;
