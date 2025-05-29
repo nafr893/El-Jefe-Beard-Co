@@ -411,12 +411,7 @@ height: fit-content;
   gap: 3px; 
 }
 
- @media (max-width: 480px) {
-.breadcrumbs__list {
-padding-left: 10x !important ; 
 
-}
-}
 
 
 li#breadcrumb-text, a#breadcrumb-text {
@@ -432,3 +427,9 @@ li#breadcrumb-text::marker {
 
 }
 
+ @media (max-width: 480px) {
+.breadcrumbs__list {
+padding-left: 10x !important ; 
+
+}
+}
