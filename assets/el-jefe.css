@@ -393,3 +393,7 @@ span.recurpay__offer_saving_message {
   display: inline !important; 
 }
 }
+
+nav.breadcrumbs {
+  display: none; 
+}
