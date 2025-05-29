@@ -365,6 +365,11 @@ span.custom-dropdown__selected-inner {
   gap: 5px; 
 }
 
+svg.icon.icon-caret {
+fill: #000000; 
+}
+
+
   .scroller {
     width: 10px;
       scrollbar-color: rgb(240, 240, 240) #fdfdfd;
