@@ -81,6 +81,6 @@
       {% render 'quick-add-modal' %}
     {% endif %}
     {{ 'recurpay-custom.css' | asset_url | stylesheet_tag }}
-     <script src="{{ 'recurpay-custom.js' | asset_url }}"></script>
+    {{ 'recurpay-custom.js' | asset_url | script_tag }}
   </body>
 </html>
