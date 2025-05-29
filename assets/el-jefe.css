@@ -424,5 +424,5 @@ li#breadcrumb-text::marker {
 
 ol#breadcrumbs__list.breadcrumbs__list {
   margin: 0px !important; 
-  gap: 3px; 
+  gap: 3px !important ; 
 }
