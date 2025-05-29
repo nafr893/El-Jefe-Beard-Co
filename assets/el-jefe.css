@@ -377,7 +377,7 @@ fill: #000000 !important ;
 
 /* end custom dropdown styles */
 
-.scroller {
+::-webkit-scrollbar {
   --scrollbar-color-track: #f5f5f5 !important;
   --scrollbar-color-thumb: #ff69b4 !important;
 }
