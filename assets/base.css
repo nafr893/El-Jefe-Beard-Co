@@ -3830,7 +3830,7 @@ text-component {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: transparent;
+  background-color:  #f5f5f5;
 }
 
 ::-webkit-scrollbar-thumb {
