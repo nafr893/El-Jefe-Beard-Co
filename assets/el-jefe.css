@@ -88,6 +88,10 @@ section#shopify-section-template--17222818529357__hero_jVaWmY {
   display: none !important; 
 }
 
+div#shopify-section-template--17256568094797__section, div#shopify-section-template--17256551809101__section {
+  display: none; 
+}
+
 div#shopify-section-template--17222818529357__section_YMDFam {
   display: none; 
 }
