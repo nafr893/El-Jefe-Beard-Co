@@ -801,7 +801,6 @@
                 },
                 "review_PKKiLN": {
                   "type": "review",
-                  "name": "t:names.product_review_stars",
                   "settings": {
                     "product": "{{ closest.product }}",
                     "stars_style": "shaded",
@@ -1083,7 +1082,7 @@
         "section_width": "page-width",
         "section_height": "custom",
         "section_height_custom": 90,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "toggle_overlay": false,
         "overlay_color": "#00000026",
         "overlay_style": "gradient",
