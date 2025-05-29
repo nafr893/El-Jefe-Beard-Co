@@ -159,6 +159,32 @@ display: none ;
 
 }
 
+
+div.jdgm-prev-badge
+{
+  background: #ededed;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+
+span.jdgm-star.jdgm--on {
+  fill: #2c2c2c ; 
+
+}
+
+span.jdgm-prev-badge__text {
+  color: #2c2c2c; 
+  font-family: 'poppins', sans-serif;
+}
+
+
+  }
+
+
+
+
+
 div.product-information__grid.product-information--media-left.product-information__grid--half{
   width: 95%; 
   padding-top: 2dvh; 
@@ -377,22 +403,3 @@ fill: #000000 !important ;
 
 /* end custom dropdown styles */
 
-div.rating-wrapper.justify-left.rating-color--primary
-{
-  background: #ededed;
-    width: fit-content;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: white;
-
-svg.starsilled-star {
-  fill: #2c2c2c ; 
-
-}
-
-p.rating-count.paragraph {
-  color: #2c2c2c; 
-}
-
-
-  }
