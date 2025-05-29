@@ -44,7 +44,7 @@
           "type": "_product-details",
           "static": true,
           "settings": {
-            "gap": 28,
+            "gap": 20,
             "sticky_details_desktop": true,
             "width": "fill",
             "custom_width": 100,
@@ -164,7 +164,7 @@
                     "overlay_color": "#00000026",
                     "overlay_style": "solid",
                     "gradient_direction": "to top",
-                    "padding-block-start": 0,
+                    "padding-block-start": 5,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
@@ -620,7 +620,7 @@
                 "border_width": 1,
                 "border_opacity": 100,
                 "border_radius": 0,
-                "padding-block-start": 0,
+                "padding-block-start": 15,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -813,7 +813,7 @@
         "text_cbcgyb": {
           "type": "text",
           "settings": {
-            "text": "<h3>You may also like </h3>",
+            "text": "<h3><strong>RECOMMENDED PRODUCTS</strong></h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -849,7 +849,7 @@
             "border_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
-            "padding-inline-start": 0,
+            "padding-inline-start": 15,
             "padding-inline-end": 0
           },
           "blocks": {
@@ -991,7 +991,7 @@
         "product": "{{ closest.product }}",
         "recommendation_type": "related",
         "layout_type": "grid",
-        "carousel_on_mobile": false,
+        "carousel_on_mobile": true,
         "max_products": 4,
         "columns": 4,
         "mobile_columns": "2",
@@ -1001,7 +1001,7 @@
         "icons_shape": "none",
         "section_width": "page-width",
         "gap": 28,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "padding-block-start": 48,
         "padding-block-end": 48
       }
