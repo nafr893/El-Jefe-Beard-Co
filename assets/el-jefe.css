@@ -376,6 +376,6 @@ fill: #000000;
 
 /* end custom dropdown styles */
 
-::-webkit-scrollbar-track {
+&::-webkit-scrollbar-track {
   background: #f1f1f1 !important; /* Track background */
 }
