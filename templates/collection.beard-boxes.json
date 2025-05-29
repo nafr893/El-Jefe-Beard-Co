@@ -127,11 +127,11 @@
         "text_rXdJXn": {
           "type": "text",
           "settings": {
-            "text": "<h1><strong>{{ closest.collection.title }}</strong></h1>",
+            "text": "<h1><strong>BEARD BOXES</strong></h1>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "h1",
+            "type_preset": "h2",
             "font": "var(--font-primary--family)",
             "font_size": "",
             "line_height": "normal",
