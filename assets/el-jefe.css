@@ -377,7 +377,22 @@ fill: #000000 !important ;
 
 /* end custom dropdown styles */
 
-::-webkit-scrollbar {
-  --scrollbar-color-track: #f5f5f5 !important;
-  --scrollbar-color-thumb: #ff69b4 !important;
+div.rating-wrapper.justify-left.rating-color--primary
+{
+  background: #ededed;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+
+svg.starsilled-star {
+  fill: #2c2c2c ; 
+
 }
+
+p.rating-count.paragraph {
+  color: #2c2c2c; 
+}
+
+
+  }
