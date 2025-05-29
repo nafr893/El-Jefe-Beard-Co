@@ -384,3 +384,12 @@ fill: #000000 !important ;
 
 /* end custom dropdown styles */
 
+div.recurpay__offer_message.recurpay__offer_message_subscription {
+span {
+  display: none; 
+
+}
+span.recurpay__offer_saving_message {
+  display: inline !important; 
+}
+}
