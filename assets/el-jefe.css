@@ -408,6 +408,7 @@ height: fit-content;
   display: flex; 
   align-items: baseline; 
   margin: 0px; 
+  gap: 3px; 
 }
 li#breadcrumb-text, a#breadcrumb-text {
 color: #2c2c2c; 
@@ -422,7 +423,3 @@ li#breadcrumb-text::marker {
 
 }
 
-ol#breadcrumbs__list.breadcrumbs__list {
-  margin: 0px !important; 
-  gap: 3px !important ; 
-}
