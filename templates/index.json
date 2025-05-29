@@ -799,17 +799,11 @@
                   },
                   "blocks": {}
                 },
-                "review_xzNXPf": {
-                  "type": "review",
+                "judge_me_reviews_preview_badge_homepage_4rR6ih": {
+                  "type": "shopify://apps/judge-me-reviews/blocks/preview_badge_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
                   "settings": {
-                    "product": "{{ closest.product }}",
-                    "stars_style": "shaded",
-                    "show_number": true,
-                    "rating_color": "primary",
-                    "type_preset": "paragraph",
-                    "alignment": "left"
-                  },
-                  "blocks": {}
+                    "product": "{{ closest.product }}"
+                  }
                 },
                 "price_h6P4AF": {
                   "type": "price",
@@ -852,7 +846,7 @@
               },
               "block_order": [
                 "product_title_dMgTDL",
-                "review_xzNXPf",
+                "judge_me_reviews_preview_badge_homepage_4rR6ih",
                 "price_h6P4AF",
                 "swatches_k9YMgz"
               ]
