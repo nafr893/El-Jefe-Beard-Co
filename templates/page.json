@@ -37,7 +37,6 @@
           "blocks": {
             "text_YMppJV": {
               "type": "text",
-              "name": "t:names.caption",
               "settings": {
                 "text": "<p>ABOUT US</p>",
                 "width": "fit-content",
@@ -101,10 +100,9 @@
               "blocks": {
                 "text_FXibxK": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
                     "text": "<h2><strong>Our Grooming Passion</strong></h2>",
-                    "width": "fit-content",
+                    "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "h3",
@@ -179,7 +177,6 @@
           ]
         }
       },
-      "name": "t:names.editorial",
       "settings": {
         "media_position": "right",
         "media_width": "medium",
