@@ -404,4 +404,8 @@ li#breadcrumb-text, a#breadcrumb-text {
 color: red; 
 }
 
+li#breadcrumb-text::marker {
+  display: none  !important ; 
+}
+
 }
