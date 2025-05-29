@@ -443,4 +443,5 @@ p.rating-count.paragraph {
 
 a#copyright-link {
   text-decoration: underline; 
+  padding-left: 5px; 
 }
