@@ -164,7 +164,7 @@
                     "overlay_color": "#00000026",
                     "overlay_style": "solid",
                     "gradient_direction": "to top",
-                    "padding-block-start": 10,
+                    "padding-block-start": 5,
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0
