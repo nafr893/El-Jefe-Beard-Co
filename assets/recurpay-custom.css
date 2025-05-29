@@ -8,3 +8,6 @@ body .recurpay-hide, button.recurpay-hide {
   display: flex;
   gap: 12px;
 }
+.quantity-cart-btn-wrapper quantity-selector-component{
+  height: 57px;
+}
