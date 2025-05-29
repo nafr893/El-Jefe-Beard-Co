@@ -14,6 +14,7 @@
       "blocks": {
         "media": {
           "type": "_media-without-appearance",
+          "disabled": true,
           "static": true,
           "settings": {
             "media_type": "image",
@@ -37,9 +38,8 @@
           "blocks": {
             "text_YMppJV": {
               "type": "text",
-              "name": "t:names.caption",
               "settings": {
-                "text": "<p>ABOUT US</p>",
+                "text": "<p>CONTACT</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -101,9 +101,8 @@
               "blocks": {
                 "text_FXibxK": {
                   "type": "text",
-                  "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2><strong>Our Grooming Passion</strong></h2>",
+                    "text": "<h2><strong>Let's Keep In Touch! </strong></h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -128,7 +127,7 @@
                 "text_DrPNyc": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>My wife and I started our men's beard products business out of a shared passion for quality grooming and the frustration of finding the right products. For years, I struggled with beard care options that either irritated my skin or didn’t deliver the desired results.</p><p>Focusing on natural ingredients that were both gentle and effective. Encouraged by the enthusiastic feedback from friends and family, we realized we had something special.</p><p>Motivated by our success, we decided to turn our passion project into a business. We launched our brand with the mission to provide men with the highest quality grooming products made from natural ingredients. Today, our products are celebrated for their effectiveness and our commitment to natural solutions, helping men everywhere feel confident and well-groomed.</p>",
+                    "text": "<p>Sign up to receive the latest updates, product launches and everything El Jefe! </p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -149,11 +148,36 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "email_signup_3HEi8H": {
+                  "type": "email-signup",
+                  "name": "t:names.email_signup",
+                  "settings": {
+                    "width": "fill",
+                    "custom_width": 100,
+                    "inherit_color_scheme": false,
+                    "color_scheme": "",
+                    "border_style": "all",
+                    "border_width": 1,
+                    "border_radius": 0,
+                    "input_type_preset": "paragraph",
+                    "style_class": "button",
+                    "display_type": "text",
+                    "label": "Sign up",
+                    "integrated_button": true,
+                    "button_type_preset": "paragraph",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "text_FXibxK",
-                "text_DrPNyc"
+                "text_DrPNyc",
+                "email_signup_3HEi8H"
               ]
             },
             "button_dJQEzK": {
@@ -179,7 +203,6 @@
           ]
         }
       },
-      "name": "t:names.editorial",
       "settings": {
         "media_position": "right",
         "media_width": "medium",
