@@ -15,7 +15,7 @@
         "text_twGGkJ": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>APPAREL & ACCESSORIES</strong></p>",
+            "text": "<p><strong>MEN'S GROOMING</strong></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -102,7 +102,7 @@
         "text_gaNnbH": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>APPAREL & ACCESSORIES</strong></p>",
+            "text": "<p><strong>MEN'S GROOMING</strong></p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
