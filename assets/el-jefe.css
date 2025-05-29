@@ -401,7 +401,7 @@ nav.breadcrumbs {
   display: flex; 
 }
 li#breadcrumb-text, a#breadcrumb-text {
-color: red; 
+color: #2c2c2c; ; 
 }
 
 li#breadcrumb-text::marker {
