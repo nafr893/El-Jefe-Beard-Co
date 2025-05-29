@@ -92,7 +92,7 @@
         "disabled": false,
         "settings": {
           "multiply_price_with_quantity": false,
-          "show_price_in_frequency_dropdown": false
+          "show_price_in_frequency_dropdown": true
         }
       }
     },
