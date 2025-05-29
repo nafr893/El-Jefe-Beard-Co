@@ -134,7 +134,7 @@
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "row",
-                    "vertical_on_mobile": true,
+                    "vertical_on_mobile": false,
                     "horizontal_alignment": "space-between",
                     "vertical_alignment": "center",
                     "align_baseline": false,
@@ -174,7 +174,7 @@
                         "show_installments": false,
                         "show_tax_info": false,
                         "type_preset": "h4",
-                        "width": "100%",
+                        "width": "fit-content",
                         "alignment": "left",
                         "font": "var(--font-body--family)",
                         "font_size": "1rem",
@@ -246,6 +246,31 @@
               },
               "blocks": {}
             },
+            "text_aEtTtq": {
+              "type": "text",
+              "settings": {
+                "text": "{{ closest.product.description }}",
+                "width": "100%",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-primary--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
@@ -306,9 +331,9 @@
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
+                "content_direction": "row",
+                "vertical_on_mobile": false,
+                "horizontal_alignment": "space-between",
                 "vertical_alignment": "center",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
@@ -345,8 +370,8 @@
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "row",
-                    "vertical_on_mobile": false,
-                    "horizontal_alignment": "flex-start",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "center",
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
@@ -381,7 +406,7 @@
                       "type": "icon",
                       "settings": {
                         "icon": "plant",
-                        "width": 16,
+                        "width": 34,
                         "link": "",
                         "open_in_new_tab": false
                       },
@@ -424,8 +449,8 @@
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "row",
-                    "vertical_on_mobile": false,
-                    "horizontal_alignment": "flex-start",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "center",
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
@@ -460,7 +485,7 @@
                       "type": "icon",
                       "settings": {
                         "icon": "truck",
-                        "width": 16,
+                        "width": 34,
                         "link": "",
                         "open_in_new_tab": false
                       },
@@ -503,8 +528,8 @@
                     "link": "",
                     "open_in_new_tab": false,
                     "content_direction": "row",
-                    "vertical_on_mobile": false,
-                    "horizontal_alignment": "flex-start",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "center",
                     "vertical_alignment": "center",
                     "align_baseline": false,
                     "horizontal_alignment_flex_direction_column": "flex-start",
@@ -538,8 +563,8 @@
                     "icon_kqeLmr": {
                       "type": "icon",
                       "settings": {
-                        "icon": "return",
-                        "width": 16,
+                        "icon": "box",
+                        "width": 34,
                         "link": "",
                         "open_in_new_tab": false
                       },
@@ -548,7 +573,7 @@
                     "text_97ypyG": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Flexible returns</p>",
+                        "text": "<p>$50+ Free Shipping</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",
@@ -718,41 +743,16 @@
                 "accordion_row_UY9V9X",
                 "accordion_row_n7UjjA"
               ]
-            },
-            "text_aEtTtq": {
-              "type": "text",
-              "settings": {
-                "text": "{{ closest.product.description }}",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-primary--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "group_icgrde",
             "divider_VJhene",
+            "text_aEtTtq",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
             "group_JbmQwr",
-            "accordion_GkgNTg",
-            "text_aEtTtq"
+            "accordion_GkgNTg"
           ]
         }
       },
