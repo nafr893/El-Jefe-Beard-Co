@@ -397,7 +397,7 @@ span.recurpay__offer_saving_message {
 
 
 nav.breadcrumbs {
-ol#breadcrumbs__list {
+.breadcrumbs__list {
   display: flex; 
 }
 .breadcrumb-text {
