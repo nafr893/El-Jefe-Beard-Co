@@ -395,9 +395,13 @@ span.recurpay__offer_saving_message {
 }
 
 nav.breadcrumbs {
-  height: fit-content; 
   
+
   li::marker {
     display: none; 
   }
+}
+
+ol#breadcrumbs__list {
+  display: flex; 
 }
