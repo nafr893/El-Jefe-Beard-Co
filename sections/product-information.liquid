@@ -166,6 +166,8 @@
   }
 {% endstylesheet %}
 
+{% render 'breadcrumbs', collection: collection %}
+
 {% liquid
   if section.settings.desktop_media_position == 'left'
     assign render_order = 'media,product-details'
