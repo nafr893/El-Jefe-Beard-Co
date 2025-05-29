@@ -3036,7 +3036,7 @@ slideshow-slides {
   }
 
   &::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #888 !important;
     border: none;
   }
 
