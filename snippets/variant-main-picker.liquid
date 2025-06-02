@@ -570,8 +570,15 @@ document.addEventListener('DOMContentLoaded', function() {
         list.style.display = 'none';
         button.setAttribute('aria-expanded', 'false');
 
-        // TODO: Trigger Shopify variant change here!
-        // You may need to trigger a change event or call your variant JS logic.
+        // Find the closest form
+const form = dropdown.closest('form');
+// Find the select/input for this option
+const optionLabel = dropdown.querySelector('label').textContent.trim();
+const select = form.querySelector(`select[name="options[${optionLabel}]"]`);
+if (select) {
+  select.value = item.getAttribute('data-value');
+  select.dispatchEvent(new Event('change', { bubbles: true }));
+}
       });
     });
 
