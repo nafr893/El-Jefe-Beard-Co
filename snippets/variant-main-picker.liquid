@@ -566,6 +566,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const radios = form.querySelectorAll(`input[type="radio"][name="options[${optionLabel}]"]`);
         let found = false;
         radios.forEach(radio => {
+          console.log('Comparing:', radio.value, value);
           if (radio.value === value) {
             radio.checked = true;
             radio.dispatchEvent(new Event('change', { bubbles: true }));
@@ -581,6 +582,11 @@ document.addEventListener('DOMContentLoaded', function() {
             select.dispatchEvent(new Event('change', { bubbles: true }));
           }
         }
+
+        // After updating the radio/select and triggering 'change'
+        form.dispatchEvent(new Event('change', { bubbles: true }));
+        // Or, if your theme uses a custom event:
+        form.dispatchEvent(new CustomEvent('variant:change', { bubbles: true }));
       });
     });
 
