@@ -328,6 +328,8 @@
             endif
           endif
 
+          
+
           if variant_style == 'buttons' and settings.variant_button_width == 'equal-width-buttons'
             assign fieldset_id = section.id | append: '-' | append: product_resource.id | append: '-' | append: product_option.name | handleize
             assign option_id_attribute = 'data-option-id="' | append: fieldset_id | append: '"'
@@ -353,10 +355,23 @@
               <label class="variant-option__button-label{% if variant_style == 'swatch' %} variant-option__button-label--has-swatch{% endif %}">
                 <input
                   type="radio"
-                  name="options[{{ product_option.name | escape }}]"
+                  name="{{ product_option.name | escape }}-{{ block.id }}-{{ product_resource.id }}"
                   value="{{ product_option_value | escape }}"
-                  {% if product_option_value.selected %}checked{% endif %}
-                />
+                  aria-label="{{ product_option_value.name }}"
+                  {% if product_option_value.available == false %}
+                    aria-disabled="true"
+                  {% endif %}
+                  data-input-id="{{ product_option.position }}-{{ forloop.index0 }}"
+                  data-option-value-id="{{ product_option_value.id }}"
+                  data-option-available="{{ product_option_value.available }}"
+                  data-connected-product-url="{{ product_option_value.product_url }}"
+                  {% if product_option_value.variant.id %}
+                    data-variant-id="{{ product_option_value.variant.id }}"
+                  {% endif %}
+                  {% if product_option_value.selected %}
+                    checked
+                  {% endif %}
+                >
                 {% if variant_style == 'swatch' %}
                   {% liquid
                     assign featured_media = product_option_value.variant.featured_media
@@ -387,59 +402,88 @@
                 }
               </style>
             {% endif %}
+
           </fieldset>
-        {%- elsif variant_style == 'swatch_dropdown' -%}
-          <div class="custom-dropdown variant-option variant-option--swatch-dropdown" data-option-index="{{ forloop.index0 }}">
-            <label>{{ product_option.name | escape }}</label>
-            <button type="button" class="custom-dropdown__selected" aria-haspopup="listbox" aria-expanded="false">
-              {%- assign selected_value = product_option.values | where: "selected", true | first -%}
-              <span class="custom-dropdown__selected-inner" style="display: flex; align-items: center; justify-content: center;">
-                <span class="swatch"
-                  style="
-                    display:inline-block;vertical-align:middle;
-                    background:
-                      {%- if selected_value.swatch.image -%}
-                        url('{{ selected_value.swatch.image | image_url: width: 40 }}') center/cover
-                      {%- elsif selected_value.swatch.color -%}
-                        {{ selected_value.swatch.color }}
-                      {%- else -%}
-                        #eee
-                      {%- endif -%};
-                  "
-                ></span>
-                <span class="custom-dropdown__selected-label">
-                  {{ selected_value.swatch.label | default: selected_value }}
-                </span>
-              </span>
-              <svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false">
-                {%- render 'icon', icon: 'caret' -%}
-              </svg>
-            </button>
-            <ul class="custom-dropdown__list" tabindex="-1" role="listbox" style="display:none;">
-              {%- for product_option_value in product_option.values -%}
-                <li class="custom-dropdown__item"
-                    role="option"
-                    data-value="{{ product_option_value | escape }}"
-                    {% if product_option_value.selected %}aria-selected="true"{% endif %}>
-                  <span class="swatch"
-                    style="
-                      display:inline-block;vertical-align:middle;
-                      background:
-                        {%- if product_option_value.swatch.image -%}
-                          url('{{ product_option_value.swatch.image | image_url: width: 40 }}') center/cover
-                        {%- elsif product_option_value.swatch.color -%}
-                          {{ product_option_value.swatch.color }}
-                        {%- else -%}
-                          #eee
-                        {%- endif -%};
-                    "
-                  ></span>
-                  <span>{{ product_option_value.swatch.label | default: product_option_value }}</span>
-                </li>
-              {%- endfor -%}
-            </ul>
-          </div>
+
+
+
+
+
+
+
+
+ {%- elsif variant_style == 'swatch_dropdown' -%}
+  <div class="custom-dropdown variant-option variant-option--swatch-dropdown" data-option-index="{{ forloop.index0 }}">
+  
+    <label>{{ product_option.name | escape }}</label>
+    <button type="button" class="custom-dropdown__selected" aria-haspopup="listbox" aria-expanded="false">
+       {%- assign selected_value = product_option.values | where: "selected", true | first -%}
+      <span class="custom-dropdown__selected-inner" style="display: flex; align-items: center; justify-content: center;">
+        <span class="swatch"
+          style="
+            display:inline-block;vertical-align:middle;
+            background:
+              {%- if selected_value.swatch.image -%}
+                url('{{ selected_value.swatch.image | image_url: width: 40 }}') center/cover
+              {%- elsif selected_value.swatch.color -%}
+                {{ selected_value.swatch.color }}
+              {%- else -%}
+                #eee
+              {%- endif -%};
+          "
+        ></span>
+        <span class="custom-dropdown__selected-label">
+          {{ selected_value.swatch.label | default: selected_value }}
+        </span>
+      </span>
+      <svg class="icon icon-caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false">
+        {%- render 'icon', icon: 'caret' -%}
+      </svg>
+    </button>
+
+    <ul class="custom-dropdown__list" tabindex="-1" role="listbox" style="display:none;">
+      {%- for product_option_value in product_option.values -%}
+        <li class="custom-dropdown__item"
+            role="option"
+            data-value="{{ product_option_value | escape }}"
+            {% if product_option_value.selected %}aria-selected="true"{% endif %}>
+          <span class="swatch"
+            style="
+              display:inline-block;vertical-align:middle;
+              background:
+                {%- if product_option_value.swatch.image -%}
+                  url('{{ product_option_value.swatch.image | image_url: width: 40 }}') center/cover
+                {%- elsif product_option_value.swatch.color -%}
+                  {{ product_option_value.swatch.color }}
+                {%- else -%}
+                  #eee
+                {%- endif -%};
+            "
+          ></span>
+
+          <span>{{ product_option_value.swatch.label | default: product_option_value }}</span>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
         {%- elsif block.settings.variant_style == 'dropdowns' -%}
+          {%
+            # There is an opportunity to build a custom select component that will allow us to style the select element further (animation for dropdown, swatches shown in the dropdown options, etc)
+            # It's too bad as it mean rebuilding baked in behaviours but I think we've already done that for the locale selectors
+            # in dawn. So it might mean more time spent in setting it up but worth it for future updates/styling.
+          %}
+
+
+
+          {% liquid
+            assign property_being_updated = false
+            if settings.variant_swatch_width != settings.variant_swatch_height
+              assign property_being_updated = true
+              # (original width / original height) x new height (20px at the moment) = new width
+              assign new_width = settings.variant_swatch_width | times: 1.0 | divided_by: settings.variant_swatch_height | times: 20
+            endif
+          %}
+
           <div class="variant-option variant-option--dropdowns">
             <label for="Option-{{ block.id }}-{{ forloop.index0 }}">{{ product_option.name | escape }}</label>
             <div
@@ -485,10 +529,63 @@
             </div>
           </div>
         {%- endif -%}
+
+
       {%- endfor -%}
+
       <script type="application/json">
         {{ product_resource.selected_or_first_available_variant | json }}
       </script>
     </form>
+
+    <!-- swatch_dropdown javascript code -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.custom-dropdown').forEach(function(dropdown) {
+    const button = dropdown.querySelector('.custom-dropdown__selected');
+    const list = dropdown.querySelector('.custom-dropdown__list');
+    const items = dropdown.querySelectorAll('.custom-dropdown__item');
+    const selectedLabel = button.querySelector('.custom-dropdown__selected-label');
+    const selectedSwatch = button.querySelector('.swatch');
+
+    // Toggle dropdown
+    button.addEventListener('click', function() {
+      const expanded = button.getAttribute('aria-expanded') === 'true';
+      button.setAttribute('aria-expanded', !expanded);
+      list.style.display = expanded ? 'none' : 'block';
+    });
+
+    // Select item
+    items.forEach(function(item) {
+      item.addEventListener('click', function() {
+        // Update label and swatch
+        selectedLabel.textContent = item.querySelector('span:last-child').textContent;
+        selectedSwatch.style.background = item.querySelector('.swatch').style.background;
+
+        // Mark selected
+        items.forEach(i => i.removeAttribute('aria-selected'));
+        item.setAttribute('aria-selected', 'true');
+
+        // Hide list
+        list.style.display = 'none';
+        button.setAttribute('aria-expanded', 'false');
+
+        // TODO: Trigger Shopify variant change here!
+        // You may need to trigger a change event or call your variant JS logic.
+      });
+    });
+
+    // Close dropdown on outside click
+    document.addEventListener('click', function(e) {
+      if (!dropdown.contains(e.target)) {
+        list.style.display = 'none';
+        button.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+});
+</script>
+
+
   </variant-picker>
-{% endunless %}
+    {% endunless %}
