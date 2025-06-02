@@ -562,11 +562,16 @@ document.addEventListener('DOMContentLoaded', function() {
         const optionLabel = dropdown.querySelector('label').textContent.trim();
         const value = item.getAttribute('data-value');
 
-        // Update radios (preferred for Shopify variant logic)
+        // Log all radios and selects for this option
+        console.log('Looking for radios/selects with name:', `options[${optionLabel}]`);
         const radios = form.querySelectorAll(`input[type="radio"][name="options[${optionLabel}]"]`);
+        const select = form.querySelector(`select[name="options[${optionLabel}]"]`);
+        console.log('Found radios:', radios);
+        console.log('Found select:', select);
+
         let found = false;
         radios.forEach(radio => {
-          console.log('Comparing:', radio.value, value);
+          console.log('Comparing radio:', radio.value, value);
           if (radio.value === value) {
             radio.checked = true;
             radio.dispatchEvent(new Event('change', { bubbles: true }));
@@ -574,18 +579,19 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         });
 
-        // Fallback: Update select if radios not found
-        if (!found) {
-          const select = form.querySelector(`select[name="options[${optionLabel}]"]`);
-          if (select) {
-            select.value = value;
-            select.dispatchEvent(new Event('change', { bubbles: true }));
-          }
+        if (!found && select) {
+          console.log('Comparing select value:', select.value, value);
+          select.value = value;
+          select.dispatchEvent(new Event('change', { bubbles: true }));
         }
 
-        // After updating the radio/select and triggering 'change'
-        form.dispatchEvent(new Event('change', { bubbles: true }));
-        // Or, if your theme uses a custom event:
+        // After updating, log the currently selected variant id (if available)
+        const variantIdInput = form.querySelector('input[name="id"]');
+        if (variantIdInput) {
+          console.log('Current variant id:', variantIdInput.value);
+        }
+
+        // Fire custom event for themes that listen for it
         form.dispatchEvent(new CustomEvent('variant:change', { bubbles: true }));
       });
     });
