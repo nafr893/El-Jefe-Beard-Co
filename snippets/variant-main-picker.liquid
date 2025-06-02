@@ -572,13 +572,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Find the closest form
 const form = dropdown.closest('form');
-// Find the select/input for this option
 const optionLabel = dropdown.querySelector('label').textContent.trim();
+const value = item.getAttribute('data-value');
+
+// Update select
 const select = form.querySelector(`select[name="options[${optionLabel}]"]`);
 if (select) {
-  select.value = item.getAttribute('data-value');
+  select.value = value;
   select.dispatchEvent(new Event('change', { bubbles: true }));
 }
+
+// Update radios
+const radios = form.querySelectorAll(`input[type="radio"][name="options[${optionLabel}]"]`);
+radios.forEach(radio => {
+  if (radio.value === value) {
+    radio.checked = true;
+    radio.dispatchEvent(new Event('change', { bubbles: true }));
+  }
+});
       });
     });
 
