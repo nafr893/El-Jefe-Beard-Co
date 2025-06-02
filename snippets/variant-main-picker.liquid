@@ -355,23 +355,10 @@
               <label class="variant-option__button-label{% if variant_style == 'swatch' %} variant-option__button-label--has-swatch{% endif %}">
                 <input
                   type="radio"
-                  name="{{ product_option.name | escape }}-{{ block.id }}-{{ product_resource.id }}"
+                  name="options[{{ product_option.name | escape }}]"
                   value="{{ product_option_value | escape }}"
-                  aria-label="{{ product_option_value.name }}"
-                  {% if product_option_value.available == false %}
-                    aria-disabled="true"
-                  {% endif %}
-                  data-input-id="{{ product_option.position }}-{{ forloop.index0 }}"
-                  data-option-value-id="{{ product_option_value.id }}"
-                  data-option-available="{{ product_option_value.available }}"
-                  data-connected-product-url="{{ product_option_value.product_url }}"
-                  {% if product_option_value.variant.id %}
-                    data-variant-id="{{ product_option_value.variant.id }}"
-                  {% endif %}
-                  {% if product_option_value.selected %}
-                    checked
-                  {% endif %}
-                >
+                  {% if product_option_value.selected %}checked{% endif %}
+                />
                 {% if variant_style == 'swatch' %}
                   {% liquid
                     assign featured_media = product_option_value.variant.featured_media
@@ -571,25 +558,29 @@ document.addEventListener('DOMContentLoaded', function() {
         button.setAttribute('aria-expanded', 'false');
 
         // Find the closest form
-const form = dropdown.closest('form');
-const optionLabel = dropdown.querySelector('label').textContent.trim();
-const value = item.getAttribute('data-value');
+        const form = dropdown.closest('form');
+        const optionLabel = dropdown.querySelector('label').textContent.trim();
+        const value = item.getAttribute('data-value');
 
-// Update select
-const select = form.querySelector(`select[name="options[${optionLabel}]"]`);
-if (select) {
-  select.value = value;
-  select.dispatchEvent(new Event('change', { bubbles: true }));
-}
+        // Update radios (preferred for Shopify variant logic)
+        const radios = form.querySelectorAll(`input[type="radio"][name="options[${optionLabel}]"]`);
+        let found = false;
+        radios.forEach(radio => {
+          if (radio.value === value) {
+            radio.checked = true;
+            radio.dispatchEvent(new Event('change', { bubbles: true }));
+            found = true;
+          }
+        });
 
-// Update radios
-const radios = form.querySelectorAll(`input[type="radio"][name="options[${optionLabel}]"]`);
-radios.forEach(radio => {
-  if (radio.value === value) {
-    radio.checked = true;
-    radio.dispatchEvent(new Event('change', { bubbles: true }));
-  }
-});
+        // Fallback: Update select if radios not found
+        if (!found) {
+          const select = form.querySelector(`select[name="options[${optionLabel}]"]`);
+          if (select) {
+            select.value = value;
+            select.dispatchEvent(new Event('change', { bubbles: true }));
+          }
+        }
       });
     });
 
