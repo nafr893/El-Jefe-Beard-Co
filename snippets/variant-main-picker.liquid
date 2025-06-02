@@ -593,6 +593,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Fire custom event for themes that listen for it
         form.dispatchEvent(new CustomEvent('variant:change', { bubbles: true }));
+
+        // Find the closest <variant-picker> element and dispatch a change event on it
+        const variantPicker = form.closest('variant-picker');
+        if (variantPicker) {
+          variantPicker.dispatchEvent(new Event('change', { bubbles: true }));
+        }
       });
     });
 
