@@ -446,6 +446,6 @@ a#copyright-link {
   padding-left: 5px; 
 }
 
-.body {
-      overflow-x: hidden;
+body {
+      overflow-x: hidden !important;
 }
