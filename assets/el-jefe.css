@@ -451,5 +451,5 @@ body {
 }
 
 div.upgrade-icon-wrapper.one-time-select-box, div.upgrade-icon-wrapper.upgrade-select-box {
-  display: none; 
+  display: none !important; 
 }
