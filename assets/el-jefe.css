@@ -453,3 +453,9 @@ body {
 div.upgrade-icon-wrapper.one-time-select-box, div.upgrade-icon-wrapper.upgrade-select-box {
   display: none !important; 
 }
+
+div.cart-items__properties {
+  dd {
+    display: none; 
+  }
+}
