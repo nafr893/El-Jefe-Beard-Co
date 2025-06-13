@@ -449,3 +449,8 @@ a#copyright-link {
 body {
       overflow-x: hidden !important;
 }
+
+div.upgrade-icon-wrapper.one-time-select-box, div.upgrade-icon-wrapper.upgrade-select-box {
+  display: none; 
+}
+}
