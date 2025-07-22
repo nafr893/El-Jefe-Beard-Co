@@ -75,6 +75,7 @@
               "blocks": {
                 "text_63NxEr": {
                   "type": "text",
+                  "disabled": true,
                   "settings": {
                     "text": "<p>CONTACT</p>",
                     "width": "fit-content",
