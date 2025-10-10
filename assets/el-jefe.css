@@ -390,11 +390,11 @@ fill: #000000 !important ;
 
 div.recurpay__offer_message.recurpay__offer_message_subscription {
 span {
-  display: none; 
+  display: inline; 
 
 }
 span.recurpay__offer_saving_message {
-  display: inline !important; 
+  display: block !important; 
 }
 }
 
