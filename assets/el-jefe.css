@@ -464,3 +464,12 @@ div.cart-items__properties {
 .bot-offer-list-extra-wrapper:last-child.bot-offer-list-line,.recurpay-hide, button.recurpay-hide {
   display: inline !important; 
 }
+
+div.recurpay__offer_message.recurpay__offer_message_subscription {
+span {
+  display: none; 
+}
+span.recurpay__offer_saving_message {
+  display: inline !important; 
+}
+}
