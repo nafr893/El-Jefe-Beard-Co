@@ -469,7 +469,7 @@ div.recurpay__offer_message.recurpay__offer_message_subscription {
 span {
   display: none; 
 }
-span.recurpay__offer_saving_message, span.recurpay__offer_saving_message_amount.recurpay__saving_amount, span.recurpay__offer_saving_message_text {
+span.recurpay__offer_saving_message, span.recurpay__offer_saving_message_amount.recurpay__saving_amount, span.recurpay__offer_saving_message_text, span.money {
   display: inline !important; 
 }
 }
