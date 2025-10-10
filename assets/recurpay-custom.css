@@ -12,6 +12,3 @@ body .recurpay-hide, button.recurpay-hide {
   height: 58px;
 }
 
-.bot-offer-list-extra-wrapper:last-child .bot-offer-list-line, .recurpay-hide, button.recurpay-hide {
-    display: inline !important
-}

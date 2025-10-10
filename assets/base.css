@@ -3907,7 +3907,11 @@ text-component {
   box-shadow: none;
 }
 
+/* subscription button */ 
 
+button#BuyButtons-ProductSubmitButton-AR05yYTNIQ2dVck1Lc__add-to-cart.button.add-to-cart-button.button.recurpay-hide {
+  display: inline !important; 
+}
 
 
 
