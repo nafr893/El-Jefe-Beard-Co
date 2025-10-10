@@ -3,18 +3,27 @@ function handleMutations(mutationsList) {
     if (mutation.type === 'childList') {
       if (document.getElementsByClassName('recurpay__widget').length > 0) {
         const container = document.querySelector('.shopify-product-form');
+
         if (container) {
           const quantitySelector = container.querySelector('.quantity-selector');
           if (quantitySelector) {
-            const addToCart = container.querySelector("add-to-cart-component");
+            const addToCart = container.querySelector('add-to-cart-component');
             const wrapperDiv = document.createElement('div');
             wrapperDiv.className = 'quantity-cart-btn-wrapper';
             wrapperDiv.appendChild(quantitySelector);
             addToCart.appendChild(wrapperDiv);
-            const addToCartButton = container.querySelector(".add-to-cart-button");
+            const addToCartButton = container.querySelector('.add-to-cart-button');
             wrapperDiv.appendChild(addToCartButton);
           }
         }
+
+        //  Force show Recurpay button (override app's !important)
+        const recurpayBtn = document.querySelector('button.recurpay-hide');
+        if (recurpayBtn) {
+          recurpayBtn.style.setProperty('display', 'block', 'important');
+        }
+
+        // stop observing once done
         recurpay_observer.disconnect();
         break;
       }
