@@ -3915,3 +3915,12 @@ button#BuyButtons-ProductSubmitButton-AR05yYTNIQ2dVck1Lc__add-to-cart.button.add
 
 
 
+
+/* subscription settings */ 
+div.recurpay__widget.recurpay__widget_container.recurpay__widget_container--selected {
+  order: 2;
+}
+
+div.recurpay__widget.recurpay__widget_container {
+  order: 1; 
+}
